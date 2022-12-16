@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 12:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/style.rst:2
+msgid "Coding style guide"
+msgstr "Guide de style de codage"
+
+#: ../../source/style.rst:5
+msgid "Python code"
+msgstr "Code Python"
+
+#: ../../source/style.rst:6
+msgid ""
+"We have followed the `PEP 08 -- Style Guide for Python Code "
+"<https://www.python.org/dev/peps/pep-0008/>`_."
+msgstr "Nous avons suivi la `Guide de style pour code Python PEP 08 <https://www.python.org/dev/peps/pep-0008/>`_."
+
+#: ../../source/style.rst:10
+msgid "Docstrings"
+msgstr "Docstrings"
+
+#: ../../source/style.rst:11
+msgid ""
+"We have followed the `PEP 257 -- Docstring Conventions "
+"<https://www.python.org/dev/peps/pep-0257/>`_ and the recommendations of "
+"the *Google Python Style Guide* for docstrings in functions (point `3.8.1"
+" <http://google.github.io/styleguide/pyguide.html#383-functions-and-"
+"methods>`_)."
+msgstr "Nous avons suivi les `Conventions Docstrings -- PEP 257 <https://www.python.org/dev/peps/pep-0257/>`_ et les recommandations de la *Google Python Style Guide* pour docstrings dans des fonctions (point `3.8.1 <http://google.github.io/styleguide/pyguide.html#383-functions-and-methods>`_)."
+
+#: ../../source/style.rst:16
+msgid ""
+"According to the GNU General Public License, a copyright notice is "
+"included in every module."
+msgstr "En accord avec la Licence Publique Générale GNU, une notice de copyright est incluse dans chaque module."
+
+#: ../../source/style.rst:20
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../../source/style.rst:21
+msgid ""
+"Some help documents have been written using markdown (README.md, "
+"package_description.md)."
+msgstr "Quelques documents d'aide ont été écrits en format markdown (README.md, package_description.md)."
+
+#: ../../source/style.rst:24
+msgid ""
+"The user manual has been generated using ``sphinx`` from files using "
+"`reStructuredText <http://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/index.html>`_ markup language. "
+"The documentation translated into French has been created using ``sphinx-"
+"intl``."
+msgstr "Le manuel d'utilisation a été généré avec ``sphinx`` depuis fichiers en format markup `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ . La documentation traduite en français a été créé avec ``sphinx-intl``."
+

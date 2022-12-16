@@ -1,0 +1,504 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-27 15:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:2
+msgid "Usage"
+msgstr "Utilisation"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:5
+msgid "Input data"
+msgstr "Données d'entrée"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:7
+msgid ""
+"The model reads input and configuration data from three text files, one "
+"obligatory (``meteo_file``) and two optional (``lake_file`` and "
+"``par_file``). Field data used for validation may also be read from a "
+"text file (``validation_data_file``). Once you have created the input "
+"files, you can use the ``okplm`` package as a command line application or"
+" a Python module."
+msgstr "Le modèle lit les données d'entrée et de configuration depuis trois fichiers texte, un obligatoire (``meteo_file``) et deux optionnels (``lake_file`` et ``par_file``). Les données de terrain utilisées pour la validation peuvent être lues depuis un fichier texte (``validation_data_file``). Une fois vous avez créé les fichiers d'entrée, vous pouvez utiliser le paquet ``okplm`` comme une application en ligne de commande ou un module Python."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:14
+msgid "File ``meteo_file``"
+msgstr "Fichier ``meteo_file``"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:15
+msgid ""
+"Obligatory input file. It contains air temperature and solar radiation "
+"data."
+msgstr "Fichier d'entrée obligatoire. Il contient données de température de l'air et rayonnement solaire."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:17
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:310
+msgid "The file is structured in three columns separated by white spaces:"
+msgstr "Le fichier est organisé en trois colonnes séparées par espaces vides :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:19
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:129
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:312
+msgid "date: date in the format 'yyyy-mm-dd'."
+msgstr "date : date avec le format 'aaaa-mm-jj'."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:20
+msgid "tair: mean daily air temperature (ºC)."
+msgstr "tair : température de l'air journalière moyenne (ºC)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:21
+msgid "sr: mean daily solar radiation (W m\\ :sup:`-2`\\ )."
+msgstr "sr : rayonnement solaire journalier moyen (W/m\\ :sup:`2`\\ )."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:33
+msgid ""
+"Meteorological data may be provided at three different frequencies: "
+"daily, weekly and monthly."
+msgstr "Il est possible de munir les données météorologiques avec trois fréquences différentes : journalière, hebdomadaire et mensuelle."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:37
+msgid "File ``lake_file``"
+msgstr "Fichier ``lake_file``"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:38
+msgid ""
+"Optional input file. It contains lake characteristics (depth, surface, "
+"volume, altitude, latitude)."
+msgstr "Fichier d'entrée optionnel. Il contient les caractéristiques du lac (profondeur, surface, volume, altitude, latitude)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:41
+msgid ""
+"The file is structured in two columns, separated by blanks. The first "
+"column contains the names of the variables and the second one contains "
+"their values. The variable names are:"
+msgstr "Le fichier est organisé en deux colonnes, séparées par espaces. La première colonne contient les noms des variables et la deuxième contient leurs valeurs. Le noms des variables sont :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:45
+msgid "name: lake name or code (optional, to identify the lake)"
+msgstr "name : nom ou code du lac (optionnel, pour identifier le lac)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:46
+msgid "zmax: lake depth (m)"
+msgstr "zmax : profondeur du lac (m)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:47
+msgid "surface: lake surface area (m\\ :sup:`2`\\ )"
+msgstr "surface : aire de surface du lac (m\\ :sup:`2`\\ )"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:48
+msgid "volume: lake volume (m\\ :sup:`3`\\ )"
+msgstr "volume : volume du lac (m\\ :sup:`3`\\ )"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:49
+msgid "altitude: altitude above sea level (m)"
+msgstr "altitude : altitude sur le niveau de la mer (m)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:50
+msgid "latitude: latitude (º)"
+msgstr "latitude : latitude (º)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:51
+msgid ""
+"type: lake type; it can be 'L' for lakes (surface outlet) or 'R' for "
+"reservoirs (submerged outlet)"
+msgstr "type : type de lac ; il peut être 'L' pour les lacs (exutoire en surface) ou 'R' pour les réservoirs (exutoire submergé)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:54
+msgid "The pairs of names-values may be specified in any order."
+msgstr "Les paires de noms-valeurs peuvent être spécifiés dans n'importe quel ordre."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:56
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:96
+msgid "For example, for the Lake Allos (ALL04)::"
+msgstr "Par exemple, pour le Lac d'Allos (ALL04)::"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:67
+msgid ""
+"Providing either ``lake_file`` or ``par_file`` is necessary. If the "
+"``par_file`` is given, the program uses parameter values in ``par_file``."
+" Otherwise, the ``lake_file`` is required and the program calculates the "
+"model parameters from the lake characteristics included in the "
+"``lake_file``."
+msgstr "Il est nécessaire de fournir soit ``lake_file`` soit ``par_file``. Si ``par_file`` est donné, le programme utilise les valeurs des paramètres dans ``par_file``. En cas contraire, il faut donner ``lake_file`` et le programme calcule les paramètres du modèle depuis les caractéristiques du lac spécifiées dans ``lake_file``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:73
+msgid "File ``par_file``"
+msgstr "Fichier ``par_file``"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:74
+msgid "Optional input file. It contains the value of the model parameters."
+msgstr "Fichier d'entrée optionnel. Il contient la valeur des paramètres du modèle."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:76
+msgid ""
+"The file is structured in two columns, separated by blanks. The first "
+"column contains the names of the parameters and the second one contains "
+"their values. The parameter names are:"
+msgstr "Le fichier est organisé en deux colonnes, séparées par espaces. La première colonne contient les noms des paramètres et la deuxième contient leurs valeurs. Les noms des paramètres sont :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:80
+msgid ""
+"A: parameter *A*. It corresponds to the mean annual epilimnion "
+"temperature (ºC)."
+msgstr "A : paramètre *A*. Il correspond à la température moyenne annuelle de l'épilimnion (ºC)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:82
+msgid "B: parameter *B*. It modulates the effect of air temperature."
+msgstr "B : paramètre *B*. Il module l'effet de la température de l'air."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:83
+msgid "C: parameter *C*. It modulates the effect of solar radiation."
+msgstr "C : paramètre *C*. Il module l'effet du rayonnement solaire."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:84
+msgid "D: parameter *D*. A constant value of 0.51 by default."
+msgstr "D : paramètre *D*. Une valeur constante de 0.51 par défaut."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:85
+msgid ""
+"E: parameter *E*. It is related to the ratio between hypolimnion "
+"temperature and epilimnion temperature. It is equal to one when the water"
+" body is not stratified."
+msgstr "E : paramètre *E*. Il a relation avec le ratio entre la température de l'hypolimnion et la température de l'épilimnion. Il est égal à un quand le plan d'eau n'est pas stratifié."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:88
+msgid ""
+"ALPHA: parameter \\ :math:`\\alpha`\\ , exponential smoothing factor of "
+"the air temperature."
+msgstr "ALPHA : paramètre \\ :math:`\\alpha`\\ , facteur de lissage exponentiel de la température de l'air."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:90
+msgid ""
+"BETA: parameter \\ :math:`\\beta`\\ , exponential smoothing factor of the"
+" epilimnion temperature."
+msgstr "BETA : paramètre \\ :math:`\\beta`\\ , facteur de lissage exponentiel de la température de l'épilimnion."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:92
+msgid "mat: mean annual air temperature (ºC)."
+msgstr "mat : température moyenne annuelle de l'air (ºC)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:93
+msgid "at_factor: multiplicative factor of air temperature."
+msgstr "at_factor: facteur multiplicatif de la température de l'air"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:94
+msgid "sw_factor: multiplicative factor of shortwave radiation."
+msgstr "sw_factor: facteur multiplicatif du rayonnement solaire."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:109
+msgid ""
+"For the definition of the parameters and further information see Prats & "
+"Danis (2019)."
+msgstr "Pour la définition des paramètres et plus d'information voyez Prats & Danis (2019)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:112
+msgid ""
+"If ``par_file`` is not given by the user, the model calculates the "
+"parameter values as a function of the lake characteristics defined in "
+"``lake_file`` according to the parameterisation by Prats & Danis (2019) "
+"for French freshwater bodies. The values of the parameters thus estimated"
+" are written to ``par_file``."
+msgstr "Si ``par_file`` n'est pas donnée par l'utilisateur, le modèle calcule les valeurs des paramètres en fonction des caractéristiques du lac définies dans ``lake_file`` d'accord avec la paramétrisation de Prats & Danis (2019) pour les plans d'eau douce français. Les valeurs des paramètres ainsi estimés sont écrits dans ``par_file``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:118
+msgid ""
+"The parameters ``at_factor`` and ``sw_factor`` are multiplicative factors"
+" of input meteorological data, that can be useful for sensitivity "
+"analyses. By default they take a value of 1.0."
+msgstr "The parameters ``at_factor`` and ``sw_factor`` are multiplicative factors of input meteorological data, that can be useful for sensitivity analyses. Par défaut ils prennent une valeur de 1.0."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:123
+msgid "File ``validation_data_file``"
+msgstr "Fichier ``validation_data_file``"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:124
+msgid ""
+"Optional observational data file used for the calculation of performance "
+"indicators."
+msgstr "Fichier de données observées optionnel utilisé pour calculer indicateurs de performance."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:127
+msgid ""
+"The file is structured in (at most) three columns separated by white "
+"spaces:"
+msgstr "Le fichier est organisé en (au maximum) trois colonnes séparées par espaces vides :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:130
+msgid "tepi: epilimnion temperature (ºC) (optional)."
+msgstr "tepi : température de l'épilimnion (ºC) (optionnelle)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:131
+msgid "thyp: hypolimnion temperature (ºC) (optional)."
+msgstr "thyp : température de l'hypolimnion (ºC) (optionnelle)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:147
+msgid ""
+"The file contains data for the dates for which measurements are "
+"available. You may provide data for only one of tepi or thyp::"
+msgstr "Le fichier contient données pour les dates où il y a des mesures disponibles. Vous pouvez fournier des données seulement pour une d'entre tepi et thyp::"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:164
+msgid "Start and end of simulation"
+msgstr "Début et fin de la simulation"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:165
+msgid ""
+"When calling the function ``run_okp()``, you can specify the dates of "
+"start and end of the simulation by using the arguments ``start_date`` and"
+" ``end_date`` (or ``-s`` and ``-e`` in the command line). The format of "
+"the dates is 'yyyy-mm-dd'."
+msgstr "Quand vous appelez la fonction ``run_okp()``, vous pouvez spécifier les dates de début et fin de simulation avec les arguments ``start_date`` et ``end_date`` (ou ``-s`` et ``-e`` en ligne de commande). Le format des dates est 'aaaa-mm-jj'."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:170
+msgid ""
+"If no start and end date are defined, the length of the simulation is "
+"determined by the length of the ``meteo_file``."
+msgstr "Si la date de début et fin ne sont pas définies, la durée de la simulation est déterminée par la longueur de ``meteo_file``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:174
+msgid "Command line application"
+msgstr "Application en ligne de commande"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:176
+msgid ""
+"To run ``okplm`` in the command line, change to the directory containing "
+"the input files and make:"
+msgstr "Pour exécuter ``okplm`` en ligne de commande, changez au dossier qui contient les fichiers d'entrée et faites :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:183
+msgid "Alternatively, you can indicate the input data folder. E.g.:"
+msgstr "Alternativement, vous pouvez indiquer le dossier des données d'entrée. P. ex.:"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:189
+msgid ""
+"Please note that the software understands the tilde '~' expansion, so "
+"that you may use instead:"
+msgstr "Veuillez noter que le logiciel comprends le remplacement du tilde '~', de façon que vous pouvez utiliser aussi :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:196
+msgid ""
+"By default, the model looks for the files named ``meteo.txt`` "
+"(meteorological data), ``lake.txt`` (lake data) and ``par.txt`` (values "
+"of the model parameters). You can specify other names using the optional "
+"arguments ``-m``, ``-l`` and ``-p``, respectively. E.g.,"
+msgstr "Par défaut, le modèle cherche les fichiers nommés ``meteo.txt`` (données météorologiques), ``lake.txt`` (données du lac) et ``par.txt`` (valeurs des paramètres du modèle). Vous pouvez spécifier d'autres noms de fichier avec les arguments optionnels ``-m``, ``-l`` et ``-p``, respectivement. P. ex.,"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:205
+msgid ""
+"Similarly, the results are written by default to ``output.txt``, but you "
+"can use define another name using ``-o``."
+msgstr "De façon similaire, les résultats sont écrit par défaut dans ``output.txt``, mais vous pouvez définir un autre nom avec ``-o``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:208
+msgid ""
+"You can limit the length of the simulation by specifying the start and "
+"end dates:"
+msgstr "Vous pouvez limiter la durée de la simulation spécifiant les dates de début et fin :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:215
+msgid ""
+"To tell the model the frequency of the input meteorological data and of "
+"the simulation you may use ``-d`` (daily), ``-w`` (weekly) or ``-n`` "
+"(monthly). E.g."
+msgstr "Pour communiquer au modèle quelle est la fréquence des données météorologiques d'entrée et de la simulation vous pouvez utiliser ``-d`` (journalière), ``-w`` (hebdomadaire) or ``-n`` (mensuelle). P. ex."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:222
+msgid ""
+"By default the program assumes the input data is provided at a daily time"
+" step."
+msgstr "Par défaut le logiciel présume que les données d'entrée sont données à un pas de temps journalier."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:224
+msgid ""
+"For daily simulations, the output can be given at daily, weekly of "
+"monthly frequencies with the arguments ``--daily_output``, "
+"``--weekly_output`` and ``--monthly_output``."
+msgstr "Pour simulations journalières, la sortie peut être donnée à fréquence journalière, hebdomadaire ou mensuelle avec les arguments ``--daily_output``, ``--weekly_output`` et ``--monthly_output``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:228
+msgid ""
+"It is also possible to obtain error statistics of the daily simulations "
+"by providing an observation data file (e.g., ``obs.txt``) and the name of"
+" the validation results file (e.g., ``err_stats.txt``):"
+msgstr "Il est possible aussi d'obtenir statistiques d'erreur des simulations journalières si on fournit un fichier de données observées (p. ex., ``obs.txt``) et le nom du fichier des résultats de validation (p. ex., ``err_stats.txt``) :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:236
+msgid ""
+"If these file names are not provided, validation statistics are not "
+"calculated."
+msgstr "Si ces noms de fichier ne sont pas données, les statistiques de validation ne sont pas calculées."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:238
+msgid "For obtaining help on the usage of the application, write:"
+msgstr "Pour avoir une aide sur l'utilisation de l'application, écrivez :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:246
+msgid "Python module"
+msgstr "Module Python"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:248
+msgid ""
+"To use ``okplm`` as a Python module you can simply import it and use the "
+"functions within::"
+msgstr "Pour utiliser ``okplm`` comme un module Python vous pouvez simplement l'importer et utiliser les fonctions qu'il contient::"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:253
+msgid ""
+"To run the model, first define the names of the different input and "
+"output files. For example::"
+msgstr "Pour exécuter le modèle, d'abord définissez les noms des différents fichiers d'entrée et de sortie. Par exemple::"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:264
+msgid "Remember you may use the tilde '~' expansion."
+msgstr "À nouveau, vous pouvez utiliser le tilde '~'."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:266
+msgid "Then, type::"
+msgstr "Après, tapez::"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:271
+msgid ""
+"You may also define a start, an end date and a periodicity for the "
+"simulations::"
+msgstr "Vous pouvez aussi définir le début, la date de fin et la périodicité des simulations::"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:277
+msgid ""
+"The output of daily simulations can be given at ``daily``, ``weekly`` or "
+"``monthly`` frequency using the argument ``output_periodicity``."
+msgstr "La sortie des simulations journalières peut être donnée à fréquence journalière (``daily``), hebdomadaire (``weekly``) ou mensuelle (``monthly``) avec l'argument ``output_periodicity``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:280
+msgid ""
+"If you provide a file containing observational data "
+"(``validation_data_file``) and a file name where to write the validation "
+"results (``validation_res_file``), error statistics are calculated and "
+"written to the specified file."
+msgstr "Si vous fournissez un fichier contenant données observées (``validation_data_file``) et le nom d'un fichier où écrire les résultats de validation (``validation_res_file``), les statistiques d'erreur sont calculées et écrites dans le fichier spécifié."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:284
+msgid ""
+"Other useful functions are ``okplm.read_dict()`` and "
+"``okplm.write_dict()``, which can be used to read and write the lake data"
+" and parameter files."
+msgstr "D'autres fonctions utiles sont ``okplm.read_dict()`` et ``okplm.write_dict()``, qui peuvent être utilisées pour lire et écrire les fichiers de lac et des paramètres."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:287
+msgid ""
+"You can include the previous commands in a Python script (see the example"
+" script ``test_script.py``). To run a python script from the command "
+"line, type:"
+msgstr "Vous pouvez inclure les commandes précédentes dans un script Python (voyez le script d'exemple ``test_script.py``). Pour exécuter un script python script en ligne de commande, tapez :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:295
+msgid "Output data"
+msgstr "Données de sortie"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:297
+msgid "The OKP model produces three types of output data:"
+msgstr "Le modèle OKP produit trois types de données de sortie :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:299
+msgid "water temperature simulations, saved to the file ``output_file``."
+msgstr "simulations de température de l'eau, sauvegardées au fichier ``output_file``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:300
+msgid ""
+"estimated parameter values (if not provided by the user), saved to the "
+"file ``par_file`` described above."
+msgstr "valeurs estimées des paramètres (si non fournies par utilisateur), sauvegardées au fichier ``par_file`` décrit ci-dessus."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:302
+msgid ""
+"indicators of simulation performance (if validation data is provided), "
+"saved to the file ``validation_res_file``."
+msgstr "indicateurs de la performance des simulations (s'il y a des données de validation), sauvegardés dans le fichier ``validation_res_file``."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:306
+msgid "File ``output_file``"
+msgstr "Fichier ``output_file``"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:307
+msgid ""
+"Main output file. It contains the simulated epilimnion and hypolimnion "
+"temperature at the requested output periodicity."
+msgstr "Fichier de sortie principale. Il contient la température simulée de l'épilimnion et de l'hypolimnion avec la périodicité de sortie sollicitée."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:313
+msgid "tepi: epilimnion temperature (ºC)."
+msgstr "tepi : température de l'épilimnion (ºC)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:314
+msgid "thyp: hypolimnion temperature (ºC)."
+msgstr "thyp : température de l'hypolimnion (ºC)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:331
+msgid "File ``validation_res_file``"
+msgstr "Fichier ``validation_res_file``"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:332
+msgid ""
+"Optional output file. It contains performance statistics of the "
+"simulation, calculated if ``validation_data_file`` and "
+"``validation_res_file`` are defined."
+msgstr "Fichier de sortie optionnel. Il contient statistiques de la simulation, calculées si ``validation_data_file`` et ``validation_res_file`` sont définis."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:335
+msgid "The file is structured in six columns separated by white spaces:"
+msgstr "Le fichier est organisé en six colonnes séparées par espaces vides :"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:337
+msgid "n: number of measurements."
+msgstr "n : nombre de mesures."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:338
+msgid "sd: standard deviation."
+msgstr "sd : déviation standard."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:339
+msgid "r: correlation coefficient."
+msgstr "r : coefficient de corrélation."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:340
+msgid "me: mean error."
+msgstr "me : erreur moyenne."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:341
+msgid "mae: mean absolute error."
+msgstr "mae : erreur absolue moyenne."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:342
+msgid "rmse: root mean square error."
+msgstr "rmse : racine carrée de l'erreur quadratique moyenne."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/usage.rst:344
+msgid ""
+"The first line of results corresponds to the epilimnion, and the second "
+"line of results corresponds to the hypolimnion."
+msgstr "La première ligne des résultats correspond à l'épilimnion, et la deuxième ligne des résultats correspond à l'hypolimnion."
+
+#~ msgid ""
+#~ "By default the program assumes the "
+#~ "input data is provided at a daily"
+#~ " time step."
+#~ msgstr ""
+#~ "Par défaut le logiciel présume que "
+#~ "les données d'entrée sont données à "
+#~ "un pas de temps journalier."
+
+#~ msgid "Running the model"
+#~ msgstr "Exécution du modèle"
+

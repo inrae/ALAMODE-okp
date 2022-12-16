@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-27 15:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:2
+msgid "Presentation"
+msgstr "Présentation"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:4
+msgid "What is the ``okplm`` package?"
+msgstr "Qu'est-ce que c'est le paquet ``okplm`` ?"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:5
+msgid ""
+"``okplm`` (Ottosson-Kettle-Prats lake model) is a package in Python 3 "
+"used to simulate the epilimnion and hypolimnion temperature of freshwater"
+" bodies using the Ottosson-Kettle-Prats (OKP) lake model (Prats & Danis, "
+"2019)."
+msgstr "``okplm`` (modèle de lacs d'Ottosson-Kettle-Prats) est un paquet en Python 3 utilisé pour simuler la température de l'épilimnion et de l'hypolimnion des plans d'eau douce avec le modèle de lacs d'Ottosson-Kettle-Prats (OKP) (Prats & Danis, 2019)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:9
+msgid ""
+"The OKP model simulates water temperature at the daily frequency using "
+"air temperature [in ºC] and solar radiation [in W m\\ :sup:`2`\\ ] as "
+"forcing data. The OKP model is the result of the combination of the "
+"models presented by Ottosson & Abrahamsson (1998) and Kettle *et al.* "
+"(2004). The development of the model was funded by the AFB (French Agency"
+" for Biodiversity, previously ONEMA, French National Office for Water and"
+" Aquatic Environments) and a preliminary version was presented in the "
+"report by Prats & Danis (2015). The definitive version was published by "
+"Prats & Danis (2019)."
+msgstr "Le modèle OKP simule la température de l'eau à fréquence journalière utilisant la température de l'air [en ºC] et le rayonnement solaire [en W m\\ :sup:`2`\\ ] comme données d'entrée. Le modèle OKP est le résultat de la combinaison des modèles présentés par Ottosson & Abrahamsson (1998) et Kettle *et al.* (2004). Le développement du modèle a été financé par l'AFB (Agence Française pour la Biodiversité, antérieurement ONEMA, Office National de l'Eau et des Milieux Aquatiques) et une version préliminaire a été présentée dans le rapport par Prats & Danis (2015). La version définitive a été publiée par Prats & Danis (2019)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:18
+msgid ""
+"To calculate water temperatures with ``okplm`` the values of a series of "
+"parameters need to be defined. It is possible to use the default "
+"parameter values obtained for French water bodies. These values are the "
+"result of the parameterisation as a function of lake characteristics "
+"(latitude, altitude, maximum depth, surface area, volume) proposed by "
+"Prats & Danis (2019). This parameterisation was derived by analysing data"
+" from the French national measuring networks set up for the application "
+"of the European Water Framework Directive for 414 French water bodies "
+"with surface area larger than 0.06 km\\ :sup:`2`\\ . The following table "
+"summarises the range of values of the characteristics of these water "
+"bodies and thus the domain of applicability of the default "
+"parameterisation."
+msgstr "Pour calculer la température de l'eau avec ``okplm`` il faut définir les valeurs d'une série de paramètres. Il est possible d'utiliser les valeurs des paramètres par défaut obtenus pour les plans d'eau français. Ces valeurs sont le résultat de la paramétrisation en fonction des caractéristiques des lacs (latitude, altitude, profondeur maximale, aire de surface, volume) proposée par Prats & Danis (2019). Cette paramétrisation a été obtenue après analyse de données des réseaux nationaux de mesure établis pour l'application de la Directive Cadre de l'Eau pour 414 plans d'eau français plus larges de 0,06 km\\ :sup:`2`\\ . La table suivante résume les caractéristiques de ces plans d'eau et définit les rangs espérés d'applicabilité de la paramétrisation par défaut."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:30
+msgid "**Variable**"
+msgstr "**Variable**"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:30
+msgid "**Min.**"
+msgstr "**Min.**"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:30
+msgid "**Max.**"
+msgstr "**Max.**"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:32
+msgid "Altitude (m)"
+msgstr "Altitude (m)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:32
+msgid "0.0"
+msgstr "0,0"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:32
+msgid "2841"
+msgstr "2841"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:33
+msgid "Latitude (ºN)"
+msgstr "Latitude (ºN)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:33
+msgid "41.47"
+msgstr "41,47"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:33
+msgid "50.87"
+msgstr "50,87"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:34
+msgid "Max. depth (m)"
+msgstr "Max. profondeur (m)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:34
+msgid "0.8"
+msgstr "0,8"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:34
+msgid "310"
+msgstr "310"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:35
+msgid "Max. surface (km\\ :sup:`2`\\ )"
+msgstr "Max. surface (km\\ :sup:`2`\\ )"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:35
+msgid "0.06"
+msgstr "0,06"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:35
+msgid "580"
+msgstr "580"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:36
+msgid "Max. volume (hm\\ :sup:`3`\\ )"
+msgstr "Max. volume (hm\\ :sup:`3`\\ )"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:36
+msgid "0.12"
+msgstr "0,12"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:36
+msgid "89000"
+msgstr "89000"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:39
+msgid ""
+"Parameter values can also be defined by the user. It is possible to find "
+"the values of certain parameters for other geographical settings such as "
+"Swedish lakes in the work by Ottosson & Abrahamsson (1998) or for the "
+"epilimnion temperature of southwest Greenland lakes in the work by Kettle"
+" *et al.* (2004)."
+msgstr "Sinon, des valeurs des paramètres définies par l'utilisateur peuvent être utilisées. Il est possible de trouver des valeurs des paramètres pour d'autres régions dans les travaux d'Ottosson & Abrahamsson (1998) (lacs suèdes) et Kettle *et al.* (2004) (température de l'épilimnion pour lacs du sud-ouest de Groenland)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:44
+msgid ""
+"Finally, if field data is available, the parameter values can be "
+"calibrated by the user using this package."
+msgstr "Enfin, si des données de terrain sont disponibles, les valeurs des paramètres peuvent être calées par l’utilisateur avec le paquet."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:48
+msgid "Authors"
+msgstr "Auteurs"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:49
+msgid "Jordi Prats-Rodríguez (jprats@segula.es)"
+msgstr "Jordi Prats-Rodríguez (jprats@segula.es)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:50
+msgid "Pierre-Alain Danis (pierre-alain.danis@afbiodiversite.fr)"
+msgstr "Pierre-Alain Danis (pierre-alain.danis@afbiodiversite.fr)"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:53
+msgid "References"
+msgstr "Références"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:54
+msgid ""
+"Kettle, H.; Thompson, R.; Anderson, N. J.; Livingstone, D. M. (2004) "
+"Empirical modeling of summer lake surface temperatures in southwest "
+"Greenland. *Limnology and Oceanography*, 49 (1), 271-282, doi: "
+"`10.4319/lo.2004.49.1.0271 <https://doi.org/10.4319/lo.2004.49.1.0271>`_."
+msgstr "Kettle, H.; Thompson, R.; Anderson, N. J.; Livingstone, D. M. (2004) Empirical modeling of summer lake surface temperatures in southwest Greenland. *Limnology and Oceanography*, 49 (1), 271-282, doi: `10.4319/lo.2004.49.1.0271 <https://doi.org/10.4319/lo.2004.49.1.0271>`_."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:59
+msgid ""
+"Ottosson, F.; Abrahamsson, O. (1998) Presentation and analysis of a model"
+" simulating epilimnetic and hypolimnetic temperatures in lakes. "
+"*Ecological Modelling*, 110, 233-253, doi: `10.1016/S0304-3800(98)00067-2"
+" <https://doi.org/10.1016/S0304-3800(98)00067-2>`_."
+msgstr "Ottosson, F.; Abrahamsson, O. (1998) Presentation and analysis of a model simulating epilimnetic and hypolimnetic temperatures in lakes. *Ecological Modelling*, 110, 233-253, doi: `10.1016/S0304-3800(98)00067-2 <https://doi.org/10.1016/S0304-3800(98)00067-2>`_."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:64
+msgid ""
+"Prats, J.; Danis, P.-A. (2015) Optimisation du réseau national de suivi "
+"pérenne in situ de la température des plans d'eau: apport de la "
+"modélisation et des données satellitaires. Final report. Irstea-Onema, "
+"Aix-en-Provence. 93 p. "
+"https://www.documentation.eauetbiodiversite.fr/notice/optimisation-du-"
+"reseau-national-de-suivi-perenne-in-situ-de-la-temperature-des-plans-d"
+"-eau-apport-de0"
+msgstr "Prats, J.; Danis, P.-A. (2015) Optimisation du réseau national de suivi pérenne in situ de la température des plans d'eau: apport de la modélisation et des données satellitaires. Rapport final. Irstea-Onema, Aix-en-Provence. 93 p. https://www.documentation.eauetbiodiversite.fr/notice/optimisation-du-reseau-national-de-suivi-perenne-in-situ-de-la-temperature-des-plans-d-eau-apport-de0"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/presentation.rst:68
+msgid ""
+"Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature "
+"model based on air temperature and lake characteristics. *Knowledge and "
+"Management of Aquatic Ecosystems*, 420, 8, doi: `10.1051/kmae/2019001 "
+"<https://doi.org/10.1051/kmae/2019001>`_."
+msgstr "Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature model based on air temperature and lake characteristics. *Knowledge and Management of Aquatic Ecosystems*, 420, 8, doi: `10.1051/kmae/2019001 <https://doi.org/10.1051/kmae/2019001>`_."
+
+#~ msgid ""
+#~ "Otherwise, parameter values defined by "
+#~ "the user may be used. Parameter "
+#~ "values for other geographical settings "
+#~ "may be found in the works by "
+#~ "Ottosson & Abrahamsson (1998) (Swedish "
+#~ "lakes) and Kettle *et al.* (2004) "
+#~ "(epilimnion temperatures for southwest "
+#~ "Greenland lakes)."
+#~ msgstr ""
+#~ "Sinon, des valeurs des paramètres "
+#~ "définies par l'utilisateur peuvent être "
+#~ "utilisées. Il est possible de trouver"
+#~ " des valeurs des paramètres pour "
+#~ "d'autres régions dans les travaux "
+#~ "d'Ottosson & Abrahamsson (1998) (lacs "
+#~ "suèdes) et Kettle *et al.* (2004) "
+#~ "(température de l'épilimnion pour lacs "
+#~ "du sud-ouest de Groenland)."
+
+#~ msgid ""
+#~ "Finally, if field data is available, "
+#~ "the parameter values can be calibrated"
+#~ " by the user using Python packages"
+#~ " such as ``scipy`` or ``pyemu``. A"
+#~ " specific module is under development "
+#~ "that will help in calibrating the "
+#~ "OKP model by retrieving field and "
+#~ "satellite data from French official data"
+#~ " bases."
+#~ msgstr ""
+#~ "Finalement, si des données de terrain"
+#~ " sont disponibles, les valeurs des "
+#~ "paramètres peuvent être calés par "
+#~ "l'utilisateur avec paquets Python comme "
+#~ "``scipy`` ou ``pyemu``. Un module "
+#~ "spécifique est en train d'être développé"
+#~ " pour aider à caler le modèle "
+#~ "OKP en utilisant des données de "
+#~ "terrain et par satellitaires de bases"
+#~ " de données officielles françaises."
+
+#~ msgid "Min."
+#~ msgstr "Min."
+
+#~ msgid "Max."
+#~ msgstr "Max."
+

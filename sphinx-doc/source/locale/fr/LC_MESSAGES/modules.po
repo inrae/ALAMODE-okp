@@ -1,0 +1,864 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-27 15:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:2
+msgid "Modules"
+msgstr "Modules"
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:4
+msgid "Module ``parameter_constants``"
+msgstr "Module ``parameter_constants``"
+
+#: of parameter_constants:1
+msgid "OKP lake model constants."
+msgstr "Constantes du modèle de lacs OKP."
+
+#: of parameter_constants:3
+msgid ""
+"This module defines the constants of the equations used to estimate the "
+"parameter values of the model OKP as a function of water body "
+"characteristics. The constants are defined in Prats & Danis (2019)."
+msgstr "Ce module définit les constantes des équations utilisées pour estimer les valeurs des paramètres du modèle OKP en fonction des caractéristiques des plans d'eau. Les constantes sont définies dans Prats & Danis (2019)."
+
+#: of okp_model:16 okp_model.water_density:9 parameter_constants:8
+#: parameter_functions:18
+msgid "References"
+msgstr "Références"
+
+#: of okp_model:17 parameter_constants:9 parameter_functions:19
+msgid ""
+"Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature "
+"model based on air temperature and lake characteristics. *Knowledge and "
+"Management of Aquatic Ecosystems*, 420, 8, doi: 10.1051/kmae/2019001."
+msgstr "Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature model based on air temperature and lake characteristics. *Knowledge and Management of Aquatic Ecosystems*, 420, 8, doi: 10.1051/kmae/2019001."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:9
+msgid "Module ``parameter_functions``"
+msgstr "Module ``parameter_functions``"
+
+#: of parameter_functions:1
+msgid "Functions to calculate parameter values."
+msgstr "Fonctions pour calculer les valeurs des paramètres."
+
+#: of parameter_functions:3
+msgid ""
+"This module contains the definition of the functions used to estimate the"
+" value of the parameters used by the OKP lake model. These equations were"
+" derived in Prats & Danis (2019)."
+msgstr "Ce module contient les définitions des fonctions utilisées pour estimer la valeur des paramètres utilisés par le modèle de lacs OKP. Ces équations ont été obtenues par Prats & Danis (2019)."
+
+#: of parameter_functions:7
+msgid "The functions included in this module are:"
+msgstr "Les fonctions incluses dans ce module sont :"
+
+#: of parameter_functions:9
+msgid "estimate_par_a: estimate parameter A."
+msgstr "estimate_par_a : estime le paramètre A."
+
+#: of parameter_functions:10
+msgid "estimate_par_alpha: estimate parameter alpha."
+msgstr "estimate_par_alpha : estime le paramètre alpha."
+
+#: of parameter_functions:11
+msgid "estimate_par_b: estimate parameter B."
+msgstr "estimate_par_b : estime le paramètre B."
+
+#: of parameter_functions:12
+msgid "estimate_par_beta: estimate parameter beta."
+msgstr "estimate_par_beta : estime le paramètre beta."
+
+#: of parameter_functions:13
+msgid "estimate_par_c: estimate parameter C."
+msgstr "estimate_par_c : estime le paramètre C."
+
+#: of parameter_functions:14
+msgid "estimate_par_e: estimate parameter E."
+msgstr "estimate_par_e : estime le paramètre E."
+
+#: of parameter_functions:15
+msgid "estimate_parameters: estimate OKP parameter values."
+msgstr "estimate_parameters : estime les valeurs des paramètres d'OKP."
+
+#: of parameter_functions.estimate_par_a:1
+msgid "Estimate the parameter A."
+msgstr "Estime le paramètre A."
+
+#: input_output.read_dict input_output.write_dict of
+#: okp_model.calc_epilimnion_temperature okp_model.calc_hypolimnion_temperature
+#: okp_model.fit_sinusoidal okp_model.run_okp okp_model.water_density
+#: parameter_functions.estimate_par_a parameter_functions.estimate_par_alpha
+#: parameter_functions.estimate_par_b parameter_functions.estimate_par_beta
+#: parameter_functions.estimate_par_c parameter_functions.estimate_par_e
+#: parameter_functions.estimate_parameters time_functions.daily_f
+#: time_functions.monthly_f time_functions.select_daterange
+#: time_functions.weekly_f validation.error_statistics
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: of parameter_functions.estimate_par_a:3
+msgid ""
+"a dictionary indicating the value of the independent variables 'latitude'"
+" (degrees North), 'altitude' (m) and 'surface' (m\\ :sup:`2`\\)."
+msgstr "un dictionnaire qui indique la valeur des variables indépendantes 'latitude' (dégrées Nord), 'altitude' (m) et 'surface' (m\\ :sup:`2`\\)."
+
+#: of parameter_functions.estimate_par_a:6
+msgid "a dictionary indicating the value of the parameter constants 'A1' to 'A4'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'A1' à 'A4'."
+
+#: input_output.read_dict input_output.write_dict of
+#: okp_model.calc_epilimnion_temperature okp_model.calc_hypolimnion_temperature
+#: okp_model.fit_sinusoidal okp_model.run_okp okp_model.water_density
+#: parameter_functions.estimate_par_a parameter_functions.estimate_par_alpha
+#: parameter_functions.estimate_par_b parameter_functions.estimate_par_beta
+#: parameter_functions.estimate_par_c parameter_functions.estimate_par_e
+#: parameter_functions.estimate_parameters time_functions.daily_f
+#: time_functions.monthly_f time_functions.select_daterange
+#: time_functions.weekly_f validation.error_statistics
+msgid "Returns"
+msgstr "Retour"
+
+#: of parameter_functions.estimate_par_a:9
+msgid ""
+"The estimated value of the parameter *A* according to Eq. (21) in Prats &"
+" Danis (2019, p.6)."
+msgstr "La valeur estimée du paramètre *A* d'après l'Éq. (21) dans Prats & Danis (2019, p.6)."
+
+#: of parameter_functions.estimate_par_a:13
+#: parameter_functions.estimate_par_alpha:13
+#: parameter_functions.estimate_par_b:12
+#: parameter_functions.estimate_par_beta:11
+#: parameter_functions.estimate_par_c:12 parameter_functions.estimate_par_e:12
+#: parameter_functions.estimate_parameters:14
+msgid "Example"
+msgstr "Exemple"
+
+#: of parameter_functions.estimate_par_alpha:1
+msgid "Estimate the parameter alpha."
+msgstr "Estime le paramètre alpha."
+
+#: of parameter_functions.estimate_par_alpha:3
+msgid ""
+"a dictionary indicating the value of the independent variables 'altitude'"
+" (m), 'surface' (m\\ :sup:`2`\\), and 'volume' (m\\ :sup:`3`\\)."
+msgstr "un dictionnaire qui indique la valeur des variables indépendantes 'altitude' (m), 'surface' (m\\ :sup:`2`\\), et 'volume' (m\\ :sup:`3`\\)."
+
+#: of parameter_functions.estimate_par_alpha:6
+msgid ""
+"a dictionary indicating the value of the parameter constants 'ALPHA1' to "
+"'ALPHA4'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'ALPHA1' à 'ALPHA4'."
+
+#: of parameter_functions.estimate_par_alpha:9
+msgid ""
+"The estimated value of the parameter :math:`\\alpha` according to Eq. "
+"(23) in Prats & Danis (2019, p. 6)."
+msgstr "La valeur estimée du paramètre :math:`\\alpha` d'après l'Éq. (23) dans Prats & Danis (2019, p. 6)."
+
+#: of parameter_functions.estimate_par_b:1
+msgid "Estimate the parameter B."
+msgstr "Estime le paramètre B."
+
+#: of parameter_functions.estimate_par_b:3
+msgid "a dictionary indicating the value of the independent variable 'zmax' (m)."
+msgstr "un dictionnaire qui indique la valeur de la variable indépendante 'zmax' (m)."
+
+#: of parameter_functions.estimate_par_b:5
+msgid "a dictionary indicating the value of the parameter constants 'B1' to 'B2'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'B1' à 'B2'."
+
+#: of parameter_functions.estimate_par_b:8
+msgid ""
+"The estimated value of the parameter *B* according to Eq. (24) in Prats &"
+" Danis (2019, p.6)."
+msgstr "La valeur estimée du paramètre *B* d'après l'Éq. (24) dans Prats & Danis (2019, p.6)."
+
+#: of parameter_functions.estimate_par_beta:1
+msgid "Estimate the parameter beta."
+msgstr "Estime le paramètre beta."
+
+#: of parameter_functions.estimate_par_beta:3
+msgid "value of the parameter E [0 - 1]."
+msgstr "valeur du paramètre E [0 - 1]."
+
+#: of parameter_functions.estimate_par_beta:4
+msgid ""
+"a dictionary indicating the value of the parameter constants 'BETA1' to "
+"'BETA3'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'BETA1' à 'BETA3'."
+
+#: of parameter_functions.estimate_par_beta:7
+msgid ""
+"The estimated value of the parameter :math:`\\beta` according to Eq. (27)"
+" in Prats & Danis (2019, p. 9)."
+msgstr "La valeur estimée du paramètre :math:`\\beta` d'après l'Éq. (27) dans Prats & Danis (2019, p. 9)."
+
+#: of parameter_functions.estimate_par_c:1
+msgid "Estimate the parameter C."
+msgstr "Estime le paramètre C."
+
+#: of parameter_functions.estimate_par_c:3
+msgid ""
+"a dictionary indicating the value of the independent variable 'altitude' "
+"(m)."
+msgstr "un dictionnaire qui indique la valeur de la variable indépendante 'altitude' (m)."
+
+#: of parameter_functions.estimate_par_c:5
+msgid "a dictionary indicating the value of the parameter constants 'C1' to 'C2'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'C1' à 'C2'."
+
+#: of parameter_functions.estimate_par_c:8
+msgid ""
+"The estimated value of the parameter *C* according to Eq. (25) in Prats &"
+" Danis (2019, p. 6)."
+msgstr "La valeur estimée du paramètre *C* d'après l'Éq. (25) dans Prats & Danis (2019, p. 6)."
+
+#: of parameter_functions.estimate_par_e:1
+msgid "Estimate the parameter E."
+msgstr "Estime le paramètre E."
+
+#: of parameter_functions.estimate_par_e:3
+msgid ""
+"a dictionary indicating the value of the independent variables 'surface' "
+"(m\\ :sup:`2`\\) and 'volume' (m\\ :sup:`3`\\)."
+msgstr "un dictionnaire qui indique la valeur des variables indépendantes 'surface' (m\\ :sup:`2`\\) et 'volume' (m\\ :sup:`3`\\)."
+
+#: of parameter_functions.estimate_par_e:5
+msgid "a dictionary indicating the value of the parameter constants 'E1' to 'E3'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'E1' à 'E3'."
+
+#: of parameter_functions.estimate_par_e:8
+msgid ""
+"The estimated value of the parameter *E* according to Eq. (28) in Prats &"
+" Danis (2019, p. 10)."
+msgstr "La valeur estimée du paramètre *E* d'après l'Éq. (28) dans Prats & Danis (2019, p. 10)."
+
+#: of parameter_functions.estimate_parameters:1
+msgid "Estimate the OKP parameter values."
+msgstr "Estime les valeurs des paramètres d'OKP."
+
+#: of parameter_functions.estimate_parameters:3
+msgid ""
+"a dictionary indicating the value of the independent variables 'latitude'"
+" (degrees North), 'altitude' (m), 'zmax' (m), 'surface' (m\\ :sup:`2`\\ "
+"), 'volume' (m\\ :sup:`3`\\)."
+msgstr "un dictionnaire qui indique la valeur des variables indépendantes 'latitude' (dégrées Nord), 'altitude' (m), 'zmax' (m), 'surface' (m\\ :sup:`2`\\ ), 'volume' (m\\ :sup:`3`\\)."
+
+#: of parameter_functions.estimate_parameters:6
+msgid ""
+"a dictionary indicating the value of the parameter constants "
+"'ALPHA1'-'ALPHA4', 'BETA1'-'BETA3', 'A1'-'A4', 'B1'-'B2', 'C1'-'C2', 'D',"
+" 'E1'-'E3'."
+msgstr "un dictionnaire qui indique la valeur des constantes 'ALPHA1'-'ALPHA4', 'BETA1'-'BETA3', 'A1'-'A4', 'B1'-'B2', 'C1'-'C2', 'D', 'E1'-'E3'."
+
+#: of parameter_functions.estimate_parameters:10
+msgid ""
+"A dictionary of the OKP model parameter values according to Eq. (21, "
+"23-25, 27-28) in Prats & Danis (2019, p. 6-10)."
+msgstr "Un dictionnaire des valeurs des paramètres du modèle OKP d'après l'Éq. (21, 23-25, 27-28) dans Prats & Danis (2019, p. 6-10)."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:14
+msgid "Module ``input_output``"
+msgstr "Module ``input_output``"
+
+#: input_output:1 of
+msgid "Functions to read and write data."
+msgstr "Fonctions pour lire et écrire des données."
+
+#: input_output:3 of
+msgid ""
+"The functions in this module are used to read the configuration and input"
+" data files of the OKP lake model, as well as for writing the results to "
+"a text file."
+msgstr "Les fonctions de ce module servent à lire les fichiers de configuration et d'entrée du modèle de lacs OKP, ainsi qu'à écrire les résultats dans un  fichier texte."
+
+#: input_output:6 of
+msgid "This module contains the following functions:"
+msgstr "Ce module contient les fonctions suivantes :"
+
+#: input_output:8 of
+msgid "read_dict: read lake or parameter file to dictionary."
+msgstr "read_dict : lit un fichier de lac ou de paramètres dans un dictionnaire."
+
+#: input_output:9 of
+msgid "write_dict: write dictionary to file."
+msgstr "write_dict : écrit dictionnaire dans un fichier."
+
+#: input_output.read_dict:1 of
+msgid "Read lake or parameter file to dictionary."
+msgstr "Lit fichier de lac ou de paramètres et stocke dans un dictionnaire."
+
+#: input_output.read_dict:3 of
+msgid ""
+"path of text file. The file should be structured in two columns separated"
+" by a space; the first column contains key names and the second column "
+"contains their values."
+msgstr "chemin du fichier texte. Le fichier devrait être organisé en deux colonnes séparées par un espace ; la première colonne contient les noms des clés et la deuxième colonne contient ses valeurs."
+
+#: input_output.read_dict:7 of
+msgid "A Python dictionary created from the key-value pairs in the text file."
+msgstr "Un dictionnaire Python créé depuis les paires clé-valeur dans le fichier texte."
+
+#: input_output.write_dict:1 of
+msgid "Write dictionary to file."
+msgstr "Écrit dictionnaire à un fichier."
+
+#: input_output.write_dict:3 of
+msgid "a Python dictionary."
+msgstr "un dictionnaire Python."
+
+#: input_output.write_dict:4 of
+msgid "path of the text file to write the data."
+msgstr "chemin du fichier texte où écrire les données."
+
+#: input_output.write_dict:6 of
+msgid "A file located at \"path\" where the dictionary data is written."
+msgstr "Un fichier situé à \"path\" où le contenu du dictionnaire data est écrit."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:19
+msgid "Module ``time_functions``"
+msgstr "Module ``time_functions``"
+
+#: of time_functions:1
+msgid "Functions for time-related operations."
+msgstr "Fonctions pour opérations temporelles."
+
+#: of time_functions:3
+msgid ""
+"This module contains functions for time operations (e.g., time averaging "
+"or selection of date ranges)."
+msgstr "Ce module contient fonctions pour des opérations temporelles (p. ex., calcul de la moyenne sur une période ou sélection de rangs de dates)."
+
+#: of okp_model:6 time_functions:6
+msgid "The included functions are:"
+msgstr "Les fonctions incluses sont :"
+
+#: of time_functions:8
+msgid "daily_f: apply function on daily periods."
+msgstr "daily_f : applique fonction sur des périodes journalières."
+
+#: of time_functions:9
+msgid "monthly_f: apply function on monthly periods."
+msgstr "monthly_f : applique fonction sur des périodes mensuelles."
+
+#: of time_functions:10
+msgid "select_daterange: return indices between two dates."
+msgstr "select_daterange : retourne les indices entre deux dates."
+
+#: of time_functions:11
+msgid "weekly_f: apply function on weekly periods."
+msgstr "weekly_f : applique fonction sur des périodes hebdomadaires."
+
+#: of time_functions.daily_f:1
+msgid "Apply a function using subdaily values as args to obtain daily values."
+msgstr "Applique une fonction à valeurs avec fréquence infra-journalière pour obtenir des valeurs journalières."
+
+#: of time_functions.daily_f:3
+msgid ""
+"datetime sequence at subdaily frequency. Missing timestamps are not "
+"allowed."
+msgstr "séquence de type datetime à fréquence infra-journalière. Les données manquantes ne sont pas permises."
+
+#: of time_functions.daily_f:5 time_functions.monthly_f:5
+#: time_functions.weekly_f:5
+msgid "data sequence, the same length of t."
+msgstr "séquence de données de la même longitude que t."
+
+#: of time_functions.daily_f:6 time_functions.monthly_f:6
+#: time_functions.weekly_f:6
+msgid "the function to be used (sum, numpy.mean, etc.)."
+msgstr "la fonction à utiliser (sum, numpy.mean, etc.)."
+
+#: of time_functions.daily_f:8
+#, python-format
+msgid ""
+"A tuple of two sequences/arrays (t_day, y_day). The sequence t_day is a "
+"datetime sequence at daily frequency. The sequence y_day is the output "
+"data sequence, result of applying funcname to the x values for each day. "
+"If the input data for a given day is less than 90% of the measurements "
+"for a day, a nan value is returned."
+msgstr "Un tuple de deux séquences/arrays (t_day, y_day). La séquence t_day est une séquence de type datetime à fréquence journalière. La séquence y_day est la séquence des données de sortie, résultat de l'application de funcname aux valeurs x pour chaque jour. Si les données d'entrée disponibles pour un jour sont moins de 90% des mesures possibles pour un jour, une valeur nan est retournée."
+
+#: of time_functions.monthly_f:1
+msgid "Apply a function using daily/subdaily values to obtain monthly values."
+msgstr "Applique une fonction à valeurs avec fréquence journalière/infra-journalière pour obtenir des valeurs mensuelles."
+
+#: of time_functions.monthly_f:3
+msgid ""
+"datetime sequence at daily or subdaily frequency. There should not be "
+"missing timestamps."
+msgstr "séquence de type datetime à fréquence journalière ou infra-journalière. Il ne devrait pas y avoir des données manquantes."
+
+#: of time_functions.monthly_f:7 time_functions.weekly_f:7
+msgid "type of input data, \"daily\" or \"subdaily\"."
+msgstr "type de données d'entrée, \"daily\" (journalières) or \"subdaily\" (infra-journalières)."
+
+#: of time_functions.monthly_f:9
+msgid ""
+"A tuple of two sequences/arrays (t_mon, y_mon). The sequence t_mon is a "
+"datetime sequence at monthly frequency. The date indicates the beginning "
+"of each month. The sequence y_mon is the output data sequence, result of "
+"applying funcname to the x values for each month. If data there are at "
+"least 3 days with missing data in a month, a nan value is returned."
+msgstr "Un tuple de deux séquences/arrays (t_mon, y_mon). La séquence t_mon est une séquence de type datetime à fréquence hebdomadaire. La date indique le début de chaque mois. La séquence y_mon est la séquence des données de sortie, résultat de l'application de funcname aux valeurs x pour chaque mois. S'il y a au moins 3 jours avec des données manquantes dans un mois, une valeur nan est retournée."
+
+#: of time_functions.select_daterange:1
+msgid "Return indices of dates comprised between two dates."
+msgstr "Retourne les indices des dates comprises entre deux dates."
+
+#: of time_functions.select_daterange:3
+msgid "list or array of dates in datetime format."
+msgstr "liste ou array de dates en format datetime."
+
+#: of time_functions.select_daterange:4
+msgid "initial date in datetime format."
+msgstr "date initiale en format datetime."
+
+#: of time_functions.select_daterange:5
+msgid "last date in datetime format."
+msgstr "date finale en format datetime."
+
+#: of time_functions.select_daterange:7
+msgid ""
+"An array of indices of dates in t comprised between t_start and t_end (or"
+" equal)."
+msgstr "Un array des indices des dates dans t comprises entre t_start et t_end (ou égales)."
+
+#: of time_functions.weekly_f:1
+msgid "Apply a function using daily/subdaily values to obtain weekly values."
+msgstr "Applique une fonction à valeurs avec fréquence journalière/infra-journalière pour obtenir des valeurs hebdomadaires."
+
+#: of time_functions.weekly_f:3
+msgid ""
+"datetime sequence at daily/subdaily frequency. There should not be "
+"missing timestamps."
+msgstr "séquence de type datetime à fréquence journalière ou infra-journalière. Il ne devrait pas y avoir des données manquantes."
+
+#: of time_functions.weekly_f:9
+msgid ""
+"A tuple of two sequences/arrays (t_week, y_week). The sequence t_week is "
+"a datetime sequence at weekly frequency. The date indicates the beginning"
+" of each week. The sequence y_week is the output data sequence, result of"
+" applying funcname to the x values for each week. If data is not "
+"available for all days for a given week, a nan value is returned."
+msgstr "Un tuple de deux séquences/arrays (t_week, y_week). La séquence t_week est une séquence de type datetime à fréquence hebdomadaire. La date indique le début de chaque semaine. La séquence y_week est la séquence des données de sortie, résultat de l'application de funcname aux valeurs x pour chaque semaine. S'il n'y a pas de données disponibles pour tous les jours d'une semaine, une valeur nan est retournée."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:24
+msgid "Module ``okp_model``"
+msgstr "Module ``okp_model``"
+
+#: of okp_model:1
+msgid "OKP lake model functions."
+msgstr "Fonctions du modèle de lacs OKP."
+
+#: of okp_model:3
+msgid ""
+"This module contains the functions used to calculate epilimnion and "
+"hypolimnion temperature corresponding to the OKP model, described in "
+"Prats & Danis (2019)."
+msgstr "Ce module contient les fonctions utilisées pour calculer la température de l'épilimnion et de l'hypolimnion d'après le modèle OKP, décrit dans Prats & Danis (2019)."
+
+#: of okp_model:8
+msgid "calc_epilimnion_temperature: calculate epilimnion temperature."
+msgstr "calc_epilimnion_temperature : calcule la température de l'épilimnion."
+
+#: of okp_model:9
+msgid "calc_hypolimnion_temperature: calculate hypolimnion temperature."
+msgstr "calc_hypolimnion_temperature : calcule la température de l'hypolimnion."
+
+#: of okp_model:10
+msgid "fit_sinusoidal: fit a sinusoidal function."
+msgstr "fit_sinusoidal : cale une fonction sinusoïdale."
+
+#: of okp_model:11
+msgid "main: parse command line arguments and run the OKP model."
+msgstr "main : analyse les arguments en ligne de commande et exécute le modèle OKP."
+
+#: of okp_model:12
+msgid "run_okp: run the OKP model."
+msgstr "run_okp : exécute le modèle OKP."
+
+#: of okp_model:13
+msgid "water_density: calculate water density."
+msgstr "water_density : calcule la densité de l'eau."
+
+#: of okp_model.calc_epilimnion_temperature:1
+msgid "Calculate epilimnion temperature."
+msgstr "Calcule la température de l'épilimnion."
+
+#: of okp_model.calc_epilimnion_temperature:3
+msgid "daily air temperature (ºC)."
+msgstr "température de l'air journalière (ºC)."
+
+#: of okp_model.calc_epilimnion_temperature:4
+msgid "daily solar radiation (W/m\\ :sup:`2`\\ )."
+msgstr "rayonnement solaire journalier (W/m\\ :sup:`2`\\ )."
+
+#: of okp_model.calc_epilimnion_temperature:5
+msgid ""
+"a dictionary with values for the parameters ALPHA, A, B, C, at_factor and"
+" sw_factor."
+msgstr "a dictionary with values for the parameters ALPHA, A, B, C, at_factor and sw_factor."
+
+#: of okp_model.calc_epilimnion_temperature:7 okp_model.run_okp:10
+msgid ""
+"periodicity of the input meteorological data and of the simulation; it "
+"can take the values 'daily', 'weekly', 'monthly'."
+msgstr "fréquence des données météorologiques d'entrée et de la simulation ; les valeurs possibles sont 'daily' (journalière), 'weekly' (hebdomadaire), 'monthly' (mensuelle)."
+
+#: of okp_model.calc_epilimnion_temperature:10
+msgid "The daily simulated epilimnion temperature in degrees C."
+msgstr "La température simulée de l'épilimnion en dégrées C."
+
+#: of okp_model.calc_hypolimnion_temperature:1
+msgid "Calculate hypolimnion temperature."
+msgstr "Calcule la température de l'hypolimnion."
+
+#: of okp_model.calc_hypolimnion_temperature:3
+msgid "daily epilimnion temperature (ºC)."
+msgstr "température de l'épilimnion journalière (ºC)."
+
+#: of okp_model.calc_hypolimnion_temperature:4
+msgid "a dictionary with values for the parameters BETA, A, D and E."
+msgstr "un dictionnaire avec valeurs des paramètres BETA, A, D et E."
+
+#: of okp_model.calc_hypolimnion_temperature:5
+msgid ""
+"periodicity of the input epilimnion temperature data and of the "
+"simulation; it can take the values 'daily', 'weekly', 'monthly'."
+msgstr "fréquence des données d'entrée de la température de l'épilimnion et de la simulation ; les valeurs possibles sont 'daily' (journalière), 'weekly' (hebdomadaire), 'monthly' (mensuelle)."
+
+#: of okp_model.calc_hypolimnion_temperature:9
+msgid "The daily simulated hypolimnion temperature in ºC."
+msgstr "La température simulée de l'hypolimnion en ºC."
+
+#: of okp_model.fit_sinusoidal:1
+msgid "Fit a sinusoidal function to data."
+msgstr "Cale une fonction sinusoïdale aux données."
+
+#: of okp_model.fit_sinusoidal:3
+msgid "This function fits a sinusoidal function of the form:"
+msgstr "Cette fonction cale une fonction sinusoïdale du type :"
+
+#: of okp_model.fit_sinusoidal:5
+msgid ":math:`y = m + a\\sin(2\\pi x/period + ph)`"
+msgstr ":math:`y = m + a\\sin(2\\pi x/period + ph)`"
+
+#: of okp_model.fit_sinusoidal:7
+msgid "array of time data."
+msgstr "array de données de temps."
+
+#: of okp_model.fit_sinusoidal:8
+msgid "array of response data."
+msgstr "array de données de réponse."
+
+#: of okp_model.fit_sinusoidal:9
+msgid "length of the period in time units."
+msgstr "longueur de la période en unités de temps."
+
+#: of okp_model.fit_sinusoidal:11
+msgid ""
+"A tuple (m, a, ph) of the three coefficients of a sinusoidal function "
+"providing the mean value (m), the amplitude of the sinusoidal function "
+"(a), and the phase of the sinusoidal function (ph)."
+msgstr "Un tuple (m, a, ph) des trois coefficients d'une fonction sinusoïdale donnant la valeur moyenne (m), l'amplitude de la fonction sinusoïdale (a), et la phase de la fonction sinusoïdale (ph)."
+
+#: of okp_model.main:1
+msgid "Parse command line arguments and run the OKP model."
+msgstr "Analyse les arguments en ligne de commande arguments et exécute le modèle OKP."
+
+#: of okp_model.main:3
+msgid "To obtain help on this function type \"run_okp -h\" in the command line."
+msgstr "Pour obtenir aide sur cette fonction tapez \"run_okp -h\" en ligne de commande."
+
+#: of okp_model.run_okp:1
+msgid "Run the OKP model."
+msgstr "Exécute le modèle OKP."
+
+#: of okp_model.run_okp:3
+msgid "path of the output file."
+msgstr "chemin du fichier de sortie."
+
+#: of okp_model.run_okp:4
+msgid "path of the meteorological data file."
+msgstr "chemin du fichier de données météorologiques."
+
+#: of okp_model.run_okp:5
+msgid "path of the parameter file."
+msgstr "chemin du fichier de paramètres."
+
+#: of okp_model.run_okp:6
+msgid ""
+"path of the lake data file (optional, it is only necessary if par_file is"
+" not provided)."
+msgstr "chemin fichier de données de lac (optionnel, seulement nécessaire si par_file n'est pas muni)."
+
+#: of okp_model.run_okp:8
+msgid "date of start of the simulation in the format 'YYYY-mm-dd'."
+msgstr "date de début de la simulation avec le format 'AAAA-mm-jj'."
+
+#: of okp_model.run_okp:9
+msgid "date of end of the simulation in the format 'YYYY-mm-dd'."
+msgstr "date de finalisation de la simulation avec le format 'AAAA-mm-jj'."
+
+#: of okp_model.run_okp:12
+msgid ""
+"periodicity of the output data (only implemented for daily simulations); "
+"it can take the values 'daily', 'weekly', 'monthly'. It is only used if "
+"the periodicity of the simulations is 'daily'."
+msgstr "fréquence des données de sortie (implémentée seulement pour simulations journalières) ; les valeurs possibles sont 'daily' (journalière), 'weekly' (hebdomadaire), 'monthly' (mensuelle). Utilisée seulement si la fréquence des simulations est 'daily'."
+
+#: of okp_model.run_okp:16
+msgid ""
+"path of the file containing observational data to calculate error "
+"statistics. If validation_data_file is defined, you need to define also "
+"validation_res_file. If None, error statistics are not calculated. "
+"Validation is only implemented for 'daily' simulations."
+msgstr "chemin du fichier contenant données observées pour calculer les statistiques d'erreur. Si validation_data_file est défini, il faut définir aussi validation_res_file. Si c'est None, les statistiques d'erreur ne sont pas calculées. La validation est implémentée uniquement pour simulations journalières."
+
+#: of okp_model.run_okp:21
+msgid ""
+"path of the file where validation results will be written. It requires "
+"the definition of a valid validation_data_file."
+msgstr "chemin du fichier où écrire les résultats de la validation. Il nécessite la définition d'un fichier validation_data_file valide."
+
+#: of okp_model.run_okp:25
+msgid ""
+"A text file named output_file is written. If the par_file does not exist,"
+" it is also created by this function. If validation data is provided, the"
+" file validation_res_file containing information on error statistics is "
+"created too."
+msgstr "Un fichier texte nommé output_file est écrit. Si par_file n'existe pas, il est créé aussi par cette fonction. Si des données de validation sont fournies, le fichier validation_res_file contenant information sur les statistiques d'erreur est créé aussi."
+
+#: of okp_model.water_density:1
+msgid "Calculate the water density as a function of temperature."
+msgstr "Calcule la densité de l'eau en fonction de la température."
+
+#: of okp_model.water_density:3
+msgid "water temperature (ºC)."
+msgstr "température de l'eau (ºC)."
+
+#: of okp_model.water_density:5
+msgid ""
+"The water density (kg/m\\ :sup:`3`\\ ) calculated using the formula by "
+"Markofsky & Harleman (1971)."
+msgstr "La densité de l'eau (kg/m\\ :sup:`3`\\ ) est calculée avec la formule de Markofsky & Harleman (1971)."
+
+#: of okp_model.water_density:10
+msgid ""
+"Markofsky, M. and Harleman, D. R. F. (1971) *A predictive model for "
+"thermal stratification and water quality in reservoirs.* Environmental "
+"Protection Agency."
+msgstr "Markofsky, M. and Harleman, D. R. F. (1971) *A predictive model for thermal stratification and water quality in reservoirs.* Environmental Protection Agency."
+
+#: /home/jordi/PycharmProjects/okplm/sphinx-doc/source/modules.rst:29
+msgid "Module ``validation``"
+msgstr "Module ``validation``"
+
+#: of validation:1
+msgid "Functions for the validation of simulation results."
+msgstr "Fonctions la validation des résultats des simulations."
+
+#: of validation:3
+msgid ""
+"This module contains only one function, used to validate simulation "
+"results:"
+msgstr "Ce module contient uniquement une fonction, utilisée pour valider les résultats de simulation :"
+
+#: of validation:5
+msgid "error_statistics: calculate error statistics."
+msgstr "error_statistics : calcule statistiques d'erreur."
+
+#: of validation.error_statistics:1
+msgid "Calculate error statistics."
+msgstr "Calcule statistiques d'erreur."
+
+#: of validation.error_statistics:3
+msgid "time array of the simulated data."
+msgstr "array de temps des données simulées."
+
+#: of validation.error_statistics:4
+msgid "array with simulated values."
+msgstr "array avec des valeurs simulées."
+
+#: of validation.error_statistics:5
+msgid "time array of observed data."
+msgstr "array de temps des données observées."
+
+#: of validation.error_statistics:6
+msgid "observed values."
+msgstr "valeurs observées."
+
+#: of validation.error_statistics:8
+msgid ""
+"A tuple of six performance indicators (n, sd, r, me, mae, rmse), "
+"corresponding to the number of measurements (n), the standard deviation "
+"(sd), the correlation coefficient (r), the mean error (me), the mean "
+"absolute error (mae), and the root mean square error (rmse)."
+msgstr "Un tuple de six indicateurs de performance (n, sd, r, me, mae, rmse), correspondant au nombre de mesures (n), la déviation standard (sd), le coefficient de corrélation (r), l'erreur moyenne (me), l'erreur absolue moyenne (mae), et la racine carrée de l'erreur quadratique moyenne (rmse)."
+
+#~ msgid ""
+#~ "* t_mon: datetime sequence at monthly"
+#~ " frequency. * y_mon: output data "
+#~ "sequence, result of applying funcname to"
+#~ " the x   values for each month. "
+#~ "If too few days are available for"
+#~ " a given   month, a nan value "
+#~ "is returned."
+#~ msgstr ""
+#~ "* t_mon : séquence de type "
+#~ "datetime à fréquence mensuelle. * y_mon"
+#~ " : séquence de données de sortie, "
+#~ "résultat de l'application de funcname "
+#~ "aux valeurs x   pour chaque mois. "
+#~ "S'il y a trop peu de jours "
+#~ "de données disponibles pour un   mois,"
+#~ " une valeur nan est retournée."
+
+#~ msgid "t_mon: datetime sequence at monthly frequency."
+#~ msgstr "t_mon : séquence de type datetime à fréquence mensuelle."
+
+#~ msgid ""
+#~ "y_mon: output data sequence, result of"
+#~ " applying funcname to the x values"
+#~ " for each month. If too few "
+#~ "days are available for a given "
+#~ "month, a nan value is returned."
+#~ msgstr ""
+#~ "y_mon : séquence de données de "
+#~ "sortie, résultat de l'application de "
+#~ "funcname aux valeurs x pour chaque "
+#~ "mois. S'il y a trop peu de "
+#~ "jours de données pour un mois, une"
+#~ " valeur nan est retournée."
+
+#~ msgid ""
+#~ "* t_week: datetime sequence at weekly"
+#~ " frequency. The date indicates the   "
+#~ "beginning of each week. * y_week :"
+#~ " output data sequence, result of "
+#~ "applying funcname to the x   values "
+#~ "for each week."
+#~ msgstr ""
+#~ "* t_week : séquence datetime à "
+#~ "fréquence hebdomadaire. La date indique "
+#~ "le   début de chaque semaine. * "
+#~ "y_week : séquence de données de "
+#~ "sortie, résultat de l'application de "
+#~ "funcname aux valeurs x   pour chaque "
+#~ "semaine."
+
+#~ msgid ""
+#~ "t_week: datetime sequence at weekly "
+#~ "frequency. The date indicates the "
+#~ "beginning of each week."
+#~ msgstr ""
+#~ "t_week : séquence de type datetime "
+#~ "à fréquence hebdomadaire. La date "
+#~ "indique le début de chaque semaine."
+
+#~ msgid ""
+#~ "y_week : output data sequence, result"
+#~ " of applying funcname to the x "
+#~ "values for each week."
+#~ msgstr ""
+#~ "y_week : séquence de données de "
+#~ "sortie, résultat de l'application de "
+#~ "funcname aux valeurs x pour chaque "
+#~ "semaine."
+
+#~ msgid ""
+#~ "* n: number of measurements. * sd:"
+#~ " standard deviation. * r: correlation "
+#~ "coefficient. * me: mean error. * "
+#~ "mae: mean absolute error. * rmse: "
+#~ "root mean square error."
+#~ msgstr ""
+#~ "* n : nombre de mesures. * "
+#~ "sd : déviation standard. * r : "
+#~ "coefficient de corrélation. * me : "
+#~ "erreur moyenne. * mae : erreur "
+#~ "absolue moyenne. * rmse : racine "
+#~ "carrée de l'erreur quadratique moyenne."
+
+#~ msgid "n: number of measurements."
+#~ msgstr "n : nombre de mesures."
+
+#~ msgid "sd: standard deviation."
+#~ msgstr "sd : déviation standard."
+
+#~ msgid "r: correlation coefficient."
+#~ msgstr "r : coefficient de corrélation."
+
+#~ msgid "me: mean error."
+#~ msgstr "me : erreur moyenne."
+
+#~ msgid "mae: mean absolute error."
+#~ msgstr "mae : erreur absolue moyenne."
+
+#~ msgid "rmse: root mean square error."
+#~ msgstr "rmse : racine carrée de l'erreur quadratique moyenne."
+
+#~ msgid "t_day: datetime sequence at daily frequency."
+#~ msgstr "t_day : séquence de type datetime à fréquence journalière."
+
+#~ msgid ""
+#~ "y_day: output data sequence, result of"
+#~ " applying funcname to the x values"
+#~ " for each day. If the input "
+#~ "data for a given day is less "
+#~ "than 95% of the measurements for a"
+#~ " day, a nan value is returned."
+#~ msgstr ""
+#~ "y_day : séquence de données de "
+#~ "sortie, résultat de l'application de "
+#~ "funcname aux valeurs x pour chaque "
+#~ "jour. Si les données d'entrée pour "
+#~ "un jour particulier sont moins de "
+#~ "95 % des mesures journalières, une "
+#~ "valeur nan est retournée."
+
+#~ msgid "Return type"
+#~ msgstr "Type de sortie"
+
+#~ msgid ""
+#~ "A tuple of two sequences/arrays (t_mon,"
+#~ " y_mon). The sequence t_mon is a "
+#~ "datetime sequence at monthly frequency. "
+#~ "The date indicates the beginning of "
+#~ "each month. The sequence y_mon is "
+#~ "the output data sequence, result of "
+#~ "applying funcname to the x values "
+#~ "for each month. If data is "
+#~ "available for less than 90% of the"
+#~ " days in the month or there are"
+#~ " at least 3 days with missing "
+#~ "data, a nan value is returned."
+#~ msgstr ""
+#~ "Un tuple de deux séquences/arrays (t_mon, "
+#~ "y_mon). La séquence t_mon est une séquence datetime "
+#~ "à fréquence mensuelle. La date indique le début de "
+#~ "chaque mois. La séquence y_mon est la séquence de "
+#~ "données de sortie, résultat de l'application de funcname "
+#~ "valeurs x pour chaque mois. Si les données sont disponibles "
+#~ "pour moins de 90% des jours dans un mois ou il y a "
+#~ "au moins trois jours avec des données manquantes, "
+#~ "une valeur nan est retournée."
+
+#~ msgid "a dictionary with values for the parameters ALPHA, A, B and C."
+#~ msgstr "un dictionnaire avec valeurs des paramètres ALPHA, A, B et C."
+

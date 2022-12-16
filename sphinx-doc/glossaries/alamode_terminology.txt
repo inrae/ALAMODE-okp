@@ -1,0 +1,64 @@
+epilimnion	épilimnion
+hypolimnion	hypolimnion
+epilimnion temperature	température de l'épilimnion
+hypolimnion temperature	température de l'hypolimnion
+package	paquet
+module	module
+Python package	paquet Python
+folder	dossier
+repository	référentiel
+directory	dossier
+user manual	manuel d'utilisation
+model	modèle
+parameter values	valeurs des paramètres
+water body	plan d'eau
+function	fonction
+OKP lake model	modèle de lacs OKP
+parameter	paramètre
+parameters	paramètres
+dictionary	dictionnaire
+functions	fonctions
+text file	fichier texte
+file	fichier
+input data	données d'entrée
+output data	données de sortie
+command line	ligne de commande
+OKP model	modèle OKP
+water density	densité de l'eau
+air temperature	température de l'air
+solar radiation	rayonnement solaire
+sinusoidal function	fonction sinusoïdale
+output file	fichier de sortie
+path	chemin
+meteorological data file	fichier de données météorologiques
+parameter file	fichier de paramètres
+lake data file	fichier de données de lac
+temperature	température
+water temperature	température de l'eau
+number of measurements	nombre de mesures
+standard deviation	déviation standard
+correlation coefficient	coefficient de corrélation
+mean error	erreur moyenne
+mean absolute error	erreur absolue moyenne
+root mean square error	racine carrée de l'erreur quadratique moyenne
+parameterisation	paramétrisation
+depth	profondeur
+water bodies	plans d'eau
+user	utilisateur
+field data	données de terrain
+GNU General Public License	Licence Publique Générale GNU
+translation	traduction
+text files	fichiers texte
+input file	fichier d'entrée
+lake	lac
+lakes	lacs
+outlet	exutoire
+reservoir	réservoir
+reservoirs	réservoirs
+model parameters	paramètres du modèle
+indicator	indicateur
+input files	fichiers d'entrée
+meteorological data	données météorologiques
+Python module	module Python
+daily simulations	simulations journalières
+indicators	indicateurs

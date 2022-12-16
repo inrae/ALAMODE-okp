@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-06 19:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/installation.rst:2
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../source/installation.rst:5
+msgid "Requirements and dependencies"
+msgstr "Besoins et dépendances"
+
+#: ../../source/installation.rst:6
+msgid ""
+"You need Python 3.5 or later to run the ``okplm`` package. You can have "
+"multiple Python versions (2.x and 3.x) installed on the same system "
+"without problems using, for example, virtual environments."
+msgstr "Il est nécessaire d'avoir une version Python 3.5 ou ultérieure pour faire tourner le paquet ``okplm``. Il est possible d'avoir plusieurs versions de Python (2.x et 3.x) installées sur le même système d'exploitation en utilisant, par exemple, les environnements virtuels."
+
+#: ../../source/installation.rst:10
+msgid "You may use ``pip`` to install the required packages."
+msgstr "Vous pouvez utiliser ``pip`` pour installer les paquets requis."
+
+#: ../../source/installation.rst:12
+msgid ""
+"In Windows, to use ``pip`` to install the required packages, please "
+"verify that the path to ``pip``'s executable file has been added "
+"correctly to your environment variable ``PATH``. The address may vary "
+"depending on whether you install it for one or all users (e.g., "
+"``%USERPROFILE%\\AppData\\roaming\\Python\\Python37\\scripts`` or "
+"``C:\\Users\\MyUserName\\AppData\\Local\\Programs\\Python\\Python37\\Scripts``)."
+msgstr "Dans Windows, pour utiliser ``pip`` pour installer les paquets requis, veuillez vérifier que le chemin à l'exécutable de ``pip`` a été ajouté à la variable d'environnement ``PATH``. L'adresse peut varier selon le cas, si vous l'installez pour un ou tous les utilisateurs (e.g., ``%USERPROFILE%\\AppData\\roaming\\Python\\Python37\\scripts`` ou ``C:\\Users\\MyUserName\\AppData\\Local\\Programs\\Python\\Python37\\Scripts``)."
+
+#: ../../source/installation.rst:18
+msgid ""
+"The application ``okplm`` depends on the Python package ``numpy``. Make "
+"sure it is installed before using ``okplm``."
+msgstr "L'application ``okplm`` dépend du package Python ``numpy``. Assurez-vous qu'il est installé avant l'utilisation de ``okplm``."
+
+#: ../../source/installation.rst:21
+msgid ""
+"If you do not have to compile the documentation, ``sphinx`` is not "
+"necessary to use ``okplm``, since a precompiled pdf copy of the "
+"documentation is included in the folder ``docs``."
+msgstr "Si vous ne devez pas compiler la documentation, ``sphinx`` n'est pas nécessaire pour utiliser ``okplm``, puisque une copie déjà compilée de la documentation en pdf est incluse dans le dossier ``docs``."
+
+#: ../../source/installation.rst:25
+msgid ""
+"If you need to compile the documentation from source (e.g., to modify "
+"it), you will need the package ``sphinx``. To install ``sphinx`` just "
+"make:"
+msgstr "Si vous avez besoin de compiler la documentation depuis le code source (p. ex., parce que vous avez fait des modifications), vous aurez besoin du paquet ``sphinx``. Pour installer ``sphinx`` simplement faites"
+
+#: ../../source/installation.rst:32
+msgid ""
+"The package ``sphinx`` works by default with reStructuredText documents. "
+"However, it can also recognise Markdown by installing the Markdown parser"
+" ``recommonmark``."
+msgstr "Le paquet ``sphinx`` travaille par défaut avec documents de type reStructuredText. Mais il peut aussi reconnaître le formatage Markdown si on installe le parseur Markdown ``recommonmark``."
+
+#: ../../source/installation.rst:39
+msgid ""
+"To create multilingual documentation, you will need the package ``sphinx-"
+"intl``. The installation process is as above:"
+msgstr "Pour créer documentation multilingue, vous avez besoin du paquet ``sphinx-intl``. Le procès d'installation est comme ci-dessus :"
+
+#: ../../source/installation.rst:46
+msgid ""
+"To compile pdf documents (only in Linux), you will also need to have "
+"installed latex and the Python package ``latexmk``. To install latex, "
+"type:"
+msgstr "Pour compiler documents pdf (seulement sous Linux), il vous faudra installer aussi latex et le paquet Python ``latexmk``. Pour installer latex, tapez :"
+
+#: ../../source/installation.rst:53
+msgid "And to install ``latexmk``, type:"
+msgstr "Et pour installer ``latexmk``, tapez :"
+
+#: ../../source/installation.rst:61
+msgid "Cloning the repository"
+msgstr "Clonage du référentiel"
+
+#: ../../source/installation.rst:62
+msgid ""
+"You need to clone the ``okplm`` package with git. For this go to an "
+"appropriate directory (e.g., ``pathtoprojectsfolder``) where to copy the "
+"project's code in a subfolder and clone the ``okplm`` project:"
+msgstr "Vous devez cloner le paquet ``okplm`` avec git. Pour ça, placez-vous dans un dossier approprié (e.g., ``pathtoprojrctsfolder``) où copier le code du projet et clonez le projet ``okplm`` :"
+
+#: ../../source/installation.rst:71
+msgid ""
+"This command creates the ``okplm`` repertory in the folder "
+"``pathtoprojectsfolder``."
+msgstr "Cette commande crée le répertoire ``okplm`` dans le dossier ``pathtoprojectsfolder``."
+
+#: ../../source/installation.rst:73
+msgid ""
+"To install the development branch of the project, after cloning the "
+"``okplm`` package, change to the ``dev`` branch:"
+msgstr "Pour installer la branche de développement du projet, après avoir cloné le paquet ``okplm``, passez à la branche ``dev``:"
+
+#: ../../source/installation.rst:83
+msgid "Installing ``okplm``"
+msgstr "Installation de ``okplm``"
+
+#: ../../source/installation.rst:84
+msgid ""
+"To install ``okplm``, go to the repertory created during the cloning of "
+"the package ``okplm`` (e.g., ``pathtorepertoryokplm``) and install it "
+"using ``pip``:"
+msgstr "Pour installer ``okplm``, allez dans le répertoire créé lors du clonage du paquet ``okplm (p. ex.,  ``pathtorepertoryokplm``) et installez-le en utilisant ``pip``:"
+
+#: ../../source/installation.rst:94
+msgid "Compilation of the project documentation"
+msgstr "Compilation de la documentation du projet"
+
+#: ../../source/installation.rst:95
+msgid ""
+"The source files for the project user manual are stored in the folder "
+"``pathtorepertoryokplm/sphinx-doc/source``. Sphinx also extracts data "
+"from the project modules docstrings."
+msgstr "Les fichiers source du manuel d'utilisation du projet sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/source``. Sphinx extrait aussi des données des docstrings des modules du projet."
+
+#: ../../source/installation.rst:100
+msgid "Documentation in English"
+msgstr "Documentation en anglais"
+
+#: ../../source/installation.rst:101
+msgid ""
+"To compile the user manual in English as html files go to the folder "
+"``pathtorepertoryokplm/sphinx-doc`` and type:"
+msgstr "Pour compiler le manuel d'utilisation en anglais en html allez au dossier ``pathtorepertoryokplm/sphinx-doc`` et tapez :"
+
+#: ../../source/installation.rst:108
+msgid ""
+"The output html files are saved in the folder ``pathtorepertoryokplm"
+"/sphinx-doc/build/html``"
+msgstr "Les fichiers html de sortie sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build/html``."
+
+#: ../../source/installation.rst:111
+msgid "You can also compile the user manual as a pdf file making:"
+msgstr "Vous pouvez compiler aussi le manuel d'utilisation en pdf avec :"
+
+#: ../../source/installation.rst:117
+msgid ""
+"The source documentation files are converted to latex and then to pdf. "
+"The output latex and pdf files are saved in the folder "
+"``pathtorepertoryokplm/sphinx-doc/build/latex``."
+msgstr "Les fichiers source de la documentation sont convertis à latex et après à pdf. Les fichiers latex et pdf de sortie sont stockés dans le dossier  ``pathtorepertoryokplm/sphinx-doc/build/latex``."
+
+#: ../../source/installation.rst:122
+msgid "Documentation in French"
+msgstr "Documentation en français"
+
+#: ../../source/installation.rst:123
+msgid ""
+"To compile the user manual in French as html files go to the folder "
+"``pathtorepertoryokplm/sphinx-doc`` and type:"
+msgstr "Pour compiler le manuel d'utilisation en français en html allez au dossier ``pathtorepertoryokplm/sphinx-doc`` et tapez :"
+
+#: ../../source/installation.rst:130
+msgid ""
+"The output html files are saved in the folder ``pathtorepertoryokplm"
+"/sphinx-doc/build_fr/html``."
+msgstr "Les fichiers html de sortie sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build_fr/html``."
+
+#: ../../source/installation.rst:133
+msgid "To compile the pdf documentation, type the following commands:"
+msgstr "Pour compiler la documentation en pdf, tapez les commandes suivantes :"
+
+#: ../../source/installation.rst:141
+msgid ""
+"The source documentation files are converted to latex and then to pdf. "
+"The output latex and pdf files are saved in the folder "
+"``pathtorepertoryokplm/sphinx-doc/build_fr/latex``."
+msgstr "Les fichiers source de la documentation sont convertis à latex et après à pdf. Les fichiers latex et pdf de sortie sont sauvegardés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build_fr/latex``."
+
+#~ msgid ""
+#~ "The application ``okplm`` depends on the"
+#~ " Python package ``numpy``. Make sure "
+#~ "it is installed before using ``okplm``."
+#~ msgstr ""
+#~ "L'application ``okplm`` dépend du paquet "
+#~ "Python ``numpy``. Assurez-vous qu'il est"
+#~ " installé avant l'utilisation de ``okplm``."
+
+#~ msgid "Compilation of the project documentation"
+#~ msgstr "Compilation de la documentation du projet"
+
+#~ msgid ""
+#~ "The source files for the project "
+#~ "user manual are stored in the "
+#~ "folder ``pathtorepertoryokplm/sphinx-doc/source``. "
+#~ "Sphinx also extracts data from the "
+#~ "project modules docstrings. To compile "
+#~ "the user manual as html files go"
+#~ " to the folder ``pathtorepertoryokplm/sphinx-"
+#~ "doc`` and type:"
+#~ msgstr ""
+#~ "Les fichiers source du manuel "
+#~ "d'utilisation du projet sont stockés "
+#~ "dans le dossier ``pathtorepertoryokplm/sphinx-"
+#~ "doc/source``. Sphinx extrait aussi des "
+#~ "données des docstrings des modules du"
+#~ " projet. Pour compiler le manuel "
+#~ "d'utilisation en html allez au dossier"
+#~ " ``pathtorepertoryokplm/sphinx-doc`` et tapez "
+#~ ":"
+
+#~ msgid ""
+#~ "The output html files are saved in"
+#~ " the folder ``pathtorepertoryokplm/sphinx-"
+#~ "doc/build/html``"
+#~ msgstr ""
+#~ "Les fichiers html de sortie sont "
+#~ "stockés dans le dossier ``pathtorepertoryokplm"
+#~ "/sphinx-doc/build/html``."
+
+#~ msgid "You can also compile the user manual as a pdf file making:"
+#~ msgstr "Vous pouvez compiler aussi le manuel d'utilisation en pdf avec :"
+
+#~ msgid ""
+#~ "The source documentation files are "
+#~ "converted to latex and then to "
+#~ "pdf. The output latex and pdf "
+#~ "files are saved in the folder "
+#~ "``pathtorepertoryokplm/sphinx-doc/build/latex``."
+#~ msgstr ""
+#~ "Les fichiers source de la documentation"
+#~ " sont convertis à latex et après "
+#~ "à pdf. Les fichiers latex et pdf"
+#~ " de sortie sont stockés dans le "
+#~ "dossier  ``pathtorepertoryokplm/sphinx-doc/build/latex``."
+
+#~ msgid "Using ``septuptools``:"
+#~ msgstr "Avec ``septuptools`` :"
+
+#~ msgid "Using ``pip``:"
+#~ msgstr "Avec ``pip`` :"
+

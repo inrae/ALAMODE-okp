@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.3.1" segtype="paragraph" srclang="EN-GB"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>0.0</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>0,0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>0.06</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>0,06</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>0.12</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>0,12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>0.8</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>0,8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>2841</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091245Z" creationid="jordi" creationdate="20191121T091245Z">
+        <seg>2841</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>310</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091251Z" creationid="jordi" creationdate="20191121T091251Z">
+        <seg>310</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>41.47</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>41,47</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>50.87</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>50,87</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>580</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091253Z" creationid="jordi" creationdate="20191121T091253Z">
+        <seg>580</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>89000</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091255Z" creationid="jordi" creationdate="20191121T091255Z">
+        <seg>89000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>:math:`y = m + a\sin(2\pi x/period + ph)`</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091203Z" creationid="jordi" creationdate="20191121T091203Z">
+        <seg>:math:`y = m + a\sin(2\pi x/period + ph)`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>:ref:`genindex`</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T084903Z" creationid="jordi" creationdate="20191121T084903Z">
+        <seg>:ref:`genindex`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>:ref:`modindex`</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T084907Z" creationid="jordi" creationdate="20191121T084907Z">
+        <seg>:ref:`modindex`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>:ref:`search`</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T084908Z" creationid="jordi" creationdate="20191121T084908Z">
+        <seg>:ref:`search`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A Python dictionary created from the key-value pairs in the text file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Un dictionnaire Python créé depuis les paires clé-valeur dans le fichier texte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A dictionary of the OKP model parameter values according to Eq. (21, 23-25, 27-28) in Prats &amp; Danis (2019, p. 6-10).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Un dictionnaire des valeurs des paramètres du modèle OKP d'après l'Éq. (21, 23-25, 27-28) dans Prats &amp; Danis (2019, p. 6-10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A file located at "path" where the dictionary data is written.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Un fichier situé à "path" où le contenu du dictionnaire data est écrit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A glossary of technical terms has been created to help with the translation and improve consistency. It is located in the folder ``sphinx-doc/glossaries``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Un glossaire de termes techniques a été créé pour aider dans la traduction et pour améliorer la consistance. Il est situé dans le dossier ``sphinx-doc/glossaries``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A text file named output_file is written. If the par_file does not exist, it is also created by this function. If validation data is provided, the file validation_res_file containing information on error statistics is created too.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Un fichier texte nommé output_file est écrit. Si par_file n'existe pas, il est créé aussi par cette fonction. Si des données de validation sont fournies, le fichier validation_res_file contenant information sur les statistiques d'erreur est créé aussi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A tuple (m, a, ph) of the three coefficients of a sinusoidal function providing the mean value (m), the amplitude of the sinusoidal function (a), and the phase of the sinusoidal function (ph).</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T101939Z" creationid="jordi" creationdate="20191121T101939Z">
+        <seg>Un tuple (m, a, ph) des trois coefficients d'une fonction sinusoïdale donnant la valeur moyenne (m), l'amplitude de la fonction sinusoïdale (a), et la phase de la fonction sinusoïdale (ph).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A tuple of six performance indicators (n, sd, r, me, mae, rmse), corresponding to the number of measurements (n), the standard deviation (sd), the correlation coefficient (r), the mean error (me), the mean absolute error (mae), and the root mean square error (rmse).</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T112235Z" creationid="jordi" creationdate="20191121T112235Z">
+        <seg>Un tuple de six indicateurs de performance (n, sd, r, me, mae, rmse), correspondant au nombre de mesures (n), la déviation standard (sd), le coefficient de corrélation (r), l'erreur moyenne (me), l'erreur absolue moyenne (mae), et la racine carrée de l'erreur quadratique moyenne (rmse).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A tuple of two sequences/arrays (t_day, y_day). The sequence t_day is a datetime sequence at daily frequency. The sequence y_day is the output data sequence, result of applying funcname to the x values for each day. If the input data for a given day is less than 90% of the measurements for a day, a nan value is returned.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T112659Z" creationid="jordi" creationdate="20191121T112659Z">
+        <seg>Un tuple de deux séquences/arrays (t_day, y_day). La séquence t_day est une séquence de type datetime à fréquence journalière. La séquence y_day est la séquence des données de sortie, résultat de l'application de funcname aux valeurs x pour chaque jour. Si les données d'entrée disponibles pour un jour sont moins de 90% des mesures possibles pour un jour, une valeur nan est retournée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A tuple of two sequences/arrays (t_mon, y_mon). The sequence t_mon is a datetime sequence at monthly frequency. The date indicates the beginning of each month. The sequence y_mon is the output data sequence, result of applying funcname to the x values for each month. If data there are at least 3 days with missing data in a month, a nan value is returned.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T112811Z" creationid="jordi" creationdate="20191121T112811Z">
+        <seg>Un tuple de deux séquences/arrays (t_mon, y_mon). La séquence t_mon est une séquence de type datetime à fréquence hebdomadaire. La date indique le début de chaque mois. La séquence y_mon est la séquence des données de sortie, résultat de l'application de funcname aux valeurs x pour chaque mois. S'il y a au moins 3 jours avec des données manquantes dans un mois, une valeur nan est retournée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A tuple of two sequences/arrays (t_week, y_week). The sequence t_week is a datetime sequence at weekly frequency. The date indicates the beginning of each week. The sequence y_week is the output data sequence, result of applying funcname to the x values for each week. If data is not available for all days for a given week, a nan value is returned.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T112131Z" creationid="jordi" creationdate="20191121T112131Z">
+        <seg>Un tuple de deux séquences/arrays (t_week, y_week). La séquence t_week est une séquence de type datetime à fréquence hebdomadaire. La date indique le début de chaque semaine. La séquence y_week est la séquence des données de sortie, résultat de l'application de funcname aux valeurs x pour chaque semaine. S'il n'y a pas de données disponibles pour tous les jours d'une semaine, une valeur nan est retournée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>A: parameter *A*. It corresponds to the mean annual epilimnion temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>A : paramètre *A*. Il correspond à la température moyenne annuelle de l'épilimnion (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>ALPHA: parameter \ :math:`\alpha`\ , exponential smoothing factor of the air temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>ALPHA : paramètre \ :math:`\alpha`\ , facteur de lissage exponentiel de la température de l'air.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>According to the GNU General Public License, a copyright notice is included in every module.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>D'accord avec la Licence Publique Générale GNU, une notice de copyright est incluse dans chaque module.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Alternatively, you can indicate the input data folder. E.g.:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Alternativement, vous pouvez indiquer le dossier des données d'entrée. P. ex. :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Altitude (m)</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091243Z" creationid="jordi" creationdate="20191121T091243Z">
+        <seg>Altitude (m)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>An array of indices of dates in t comprised between t_start and t_end (or equal).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Un array des indices des dates dans t comprises entre t_start et t_end (ou égales).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>And to install ``latexmk``, type:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Et pour installer ``latexmk``, tapez :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Apply a function using daily/subdaily values to obtain monthly values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Applique une fonction à valeurs avec fréquence journalière/infra-journalière pour obtenir des valeurs mensuelles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Apply a function using daily/subdaily values to obtain weekly values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Applique une fonction à valeurs avec fréquence journalière/infra-journalière pour obtenir des valeurs hebdomadaires.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Apply a function using subdaily values as args to obtain daily values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Applique une fonction à valeurs avec fréquence infra-journalière pour obtenir des valeurs journalières.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Authors</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Auteurs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>B: parameter *B*. It modulates the effect of air temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>B : paramètre *B*. Il module l'effet de la température de l'air.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>BETA: parameter \ :math:`\beta`\ , exponential smoothing factor of the epilimnion temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>BETA : paramètre \ :math:`\beta`\ , facteur de lissage exponentiel de la température de l'épilimnion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Before starting the translation it is advisable to check the source files thoroughly to eliminate any language or format issues.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Avant de commencer la traduction il est conseillé de relire attentivement les fichiers source pour éliminer des erreurs linguistiques ou de format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Before starting the translation, the value of msgstr is empty:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Avant de démarrer la traduction, la valeur de msgstr est vide :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>By default the program assumes the input data is provided at a daily time step. To tell the model the frequency of the input meteorological data and of the simulation you may use ``-d`` (daily), ``-w`` (weekly) or ``-n`` (monthly). E.g.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150526Z" creationid="jordi" creationdate="20191121T150526Z">
+        <seg>Par défaut le logiciel présume que les données d'entrée sont données à un pas de temps journalier. Pour communiquer au modèle quelle est la fréquence des données météorologiques d'entrée et de la simulation vous pouvez utiliser ``-d`` (journalière), ``-w`` (hebdomadaire) or ``-n`` (mensuelle). P. ex. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>By default, the model looks for the files named ``meteo.txt`` (meteorological data), ``lake.txt`` (lake data) and ``par.txt`` (values of the model parameters). You can specify other names using the optional arguments ``-m``, ``-l`` and ``-p``, respectively. E.g.,</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Par défaut, le modèle cherche les fichiers nommés ``meteo.txt`` (données météorologiques), ``lake.txt`` (données du lac) et ``par.txt`` (valeurs des paramètres du modèle). Vous pouvez spécifier d'autres noms de fichier avec les arguments optionnels ``-m``, ``-l`` et ``-p``, respectivement. P. ex.,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>C: parameter *C*. It modulates the effect of solar radiation.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>C : paramètre *C*. Il module l'effet du rayonnement solaire.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Calculate epilimnion temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Calcule la température de l'épilimnion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Calculate error statistics.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Calcule statistiques d'erreur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Calculate hypolimnion temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Calcule la température de l'hypolimnion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Calculate the water density as a function of temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Calcule la densité de l'eau en fonction de la température.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Cloning the repository</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Clonage du répertoire</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Coding style guide</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Guide de style de codage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Command line application</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Application en ligne de commande application</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Compilation of the project documentation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Compilation de la documentation du projet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Compilation of the translated documentation</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145136Z" creationid="jordi" creationdate="20191121T145136Z">
+        <seg>Compilation de la documentation traduite</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Contents:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Contenu :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Creation of POT and PO files</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Création de fichiers POT et PO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Creation of the project's documentation</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150544Z" creationid="jordi" creationdate="20191121T150544Z">
+        <seg>Création de la documentation du projet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Creation of the translated documentation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Création de la documentation traduite</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>D: parameter *D*. A constant value of 0.51 by default.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>D : paramètre *D*. Une valeur constante de 0.51 par défaut.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Docstrings</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091311Z" creationid="jordi" creationdate="20191121T091311Z">
+        <seg>Docstrings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Documentation</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091313Z" creationid="jordi" creationdate="20191121T091313Z">
+        <seg>Documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>E: parameter *E*. It is related to the ratio between hypolimnion temperature and epilimnion temperature. It is equal to one when the water body is not stratified.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>E : paramètre *E*. Il a relation avec le ratio entre la température de l'hypolimnion et la température de l'épilimnion. Il est égal à un quand le plan d'eau n'est pas stratifié.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the OKP parameter values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime les valeurs des paramètres d'OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the parameter A.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime le paramètre A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the parameter B.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime le paramètre B.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the parameter C.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime le paramètre C.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the parameter E.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime le paramètre E.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the parameter alpha.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime le paramètre alpha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Estimate the parameter beta.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Estime le paramètre beta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Example</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Exemple</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Examples of usage of the package ``okplm``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145232Z" creationid="jordi" creationdate="20191121T145232Z">
+        <seg>Exemples d'utilisation du paquet ``okplm``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>File ``lake_file``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier ``lake_file``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>File ``meteo_file``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier ``meteo_file``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>File ``output_file``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier ``output_file``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>File ``par_file``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier ``par_file``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>File ``validation_data_file``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier ``validation_data_file``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>File ``validation_res_file``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier ``validation_res_file``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Finally, if field data is available, the parameter values can be calibrated by the user using Python packages such as ``scipy`` or ``pyemu``. A specific module is under development that will help in calibrating the OKP model by retrieving field and satellite data from French official data bases.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T092010Z">
+        <seg>Finalement, si des données de terrain sont disponibles, les valeurs des paramètres peuvent être calés par l'utilisateur avec paquets Python comme ``scipy`` ou ``pyemu``. Un module spécifique est en train d'être développé pour aider à caler le modèle OKP en utilisant des données de terrain et par satellitaires de bases de données officielles françaises.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Fit a sinusoidal function to data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Cale une fonction sinusoïdale aux données.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>For daily simulations, the output can be given at daily, weekly of monthly frequencies with the arguments ``--daily_output``, ``--weekly_output`` and ``--monthly_output``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour simulations journalières, la sortie peut être donnée à fréquence journalière, hebdomadaire ou mensuelle avec les arguments ``--daily_output``, ``--weekly_output`` et ``--monthly_output``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>For example, for the Lake Allos (ALL04)::</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Par exemple, pour le Lac d'Allos (ALL04)::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>For obtaining help on the usage of the application, write:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour avoir aide sur l'utilisation de l'application, écrivez :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>For the definition of the parameters and further information see Prats &amp; Danis (2019).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour la définition des paramètres et plus d'information voyez Prats &amp; Danis (2019).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>For these three case the input is meteorological data (``meteo.txt``) and lake data (``lake.txt``). Thus, the model parameters are calculated from lake characteristics given in ``lake.txt`` with the following command:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145610Z" creationid="jordi" creationdate="20191121T145610Z">
+        <seg>Pour ces trois cas, les données météorologiques (``meteo.txt``) et les données lacustres (``lake.txt``) sont fournies en entrée au modèle. Par conséquent, les paramètres du modèle sont calculés à partir des caractéristiques du lac dans ``lake.txt`` avec la formulation suivante :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Functions for the validation of simulation results.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fonctions la validation des résultats des simulations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Functions for time-related operations.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fonctions pour opérations temporelles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Functions to calculate parameter values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fonctions pour calculer les valeurs des paramètres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Functions to read and write data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fonctions pour lire et écrire des données.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If ``par_file`` is not given by the user, the model calculates the parameter values as a function of the lake characteristics defined in ``lake_file`` according to the parameterisation by Prats &amp; Danis (2019) for French freshwater bodies. The values of the parameters thus estimated are written to ``par_file``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Si ``par_file`` n'est pas donnée par l'utilisateur, le modèle calcule les valeurs des paramètres en fonction des caractéristiques du lac définies dans ``lake_file`` d'accord avec la paramétrisation de Prats &amp; Danis (2019) pour les plans d'eau douce français. Les valeurs des paramètres ainsi estimés sont écrits dans ``par_file``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If no start and end date are defined, the length of the simulation is determined by the length of the ``meteo_file``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Si la date de début et fin ne sont pas définies, la durée de la simulation est déterminée par la longueur de ``meteo_file``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If the project's documentation is updated, it is necessary to create new pot files following the procedure described above. To apply the changes to the po files, do</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Si la documentation du projet est modifiée, il faut créer des nouveaux fichiers pot d'accord avec la procédure décrite ci-dessus. Pour appliquer les changements aux fichiers po, faites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If these file names are not provided, validation statistics are not calculated.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Si ces noms de fichier ne sont pas données, les statistiques de validation ne sont pas calculées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If you do not have to compile the documentation, ``sphinx`` is not necessary to use ``okplm``, since a precompiled pdf copy of the documentation is included in the folder ``docs``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Si vous ne devez pas compiler la documentation, ``sphinx`` n'est pas nécessaire pour utiliser ``okplm``, puisque une copie déjà compilée de la documentation en pdf est incluse dans le dossier ``docs``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If you need to compile the documentation from source (e.g., because of changes you made), you will need the package ``sphinx``. To install ``sphinx`` just make</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091532Z">
+        <seg>Si vous avez besoin de compiler la documentation depuis le code source (p. ex., parce que vous avez fait des modifications), vous aurez besoin du paquet ``sphinx``. Pour installer ``sphinx`` simplement faites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>If you provide a file containing observational data (``validation_data_file``) and a file name where to write the validation results (``validation_res_file``), error statistics are calculated and written to the specified file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Si vous fournissez un fichier contenant données observées (``validation_data_file``) et le nom d'un fichier où écrire les résultats de validation (``validation_res_file``), les statistiques d'erreur sont calculées et écrites dans le fichier spécifié.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>In all cases the lake data in the ``lake.txt`` file corresponds to the Lake Allos (lake code = ALL04). The meteorological data (``meteo.txt``) is synthetic data based on meteorological data. Air temperature has been created using a seasonal component and an ARMA model, while solar radiation data corresponds to the seasonal component only.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145412Z" creationid="jordi" creationdate="20191121T145412Z">
+        <seg>Dans ces exemples, les données du lac dans le fichier ``lake.txt`` correspondent à celles du lac d'Allos. (code du lac = ALL04). Les données météorologiques (``meteo.txt``) sont des données synthétiques d'une base de données météorologiques. La température de l'air a été créée à l'aide d'une température avec une composante saisonnière et un modèle ARMA, tandis que les données de rayonnement solaire correspondent seulement à la composante saisonnière.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>In the case of the simulation with daily data, the script ``test_script.py`` gives example of validation of the model results with an observation data file ``obs.txt``.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145641Z" creationid="jordi" creationdate="20191121T145641Z">
+        <seg>Dans le cas d'une simulation avec des données journalières, le script ``test_script.py`` donne un exemple de validation des résultats du modèle avec une fichier d'observation ``obs.txt``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Indices and tables</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Indices et tableaux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Input data</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Données d'entrée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091316Z" creationid="jordi" creationdate="20191121T091316Z">
+        <seg>Installation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Installing ``okplm``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Installation de ``okplm``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>It is also possible to obtain error statistics of the daily simulations by providing an observation data file (e.g., ``obs.txt``) and the name of the validation results file (e.g., ``err_stats.txt``):</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Il est possible aussi d'obtenir statistiques d'erreur des simulations journalières si on fournit un fichier de données observées (p. ex., ``obs.txt``) et le nom du fichier des résultats de validation (p. ex., ``err_stats.txt``) :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Jordi Prats-Rodríguez (jprats@segula.es)</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091259Z" creationid="jordi" creationdate="20191121T091259Z">
+        <seg>Jordi Prats-Rodríguez (jprats@segula.es)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Kettle, H.; Thompson, R.; Anderson, N. J.; Livingstone, D. M. (2004) Empirical modeling of summer lake surface temperatures in southwest Greenland. *Limnology and Oceanography*, 49 (1), 271-282, doi: `10.4319/lo.2004.49.1.0271 &lt;https://doi.org/10.4319/lo.2004.49.1.0271&gt;`_.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091302Z" creationid="jordi" creationdate="20191121T091302Z">
+        <seg>Kettle, H.; Thompson, R.; Anderson, N. J.; Livingstone, D. M. (2004) Empirical modeling of summer lake surface temperatures in southwest Greenland. *Limnology and Oceanography*, 49 (1), 271-282, doi: `10.4319/lo.2004.49.1.0271 &lt;https://doi.org/10.4319/lo.2004.49.1.0271&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Latitude (ºN)</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091249Z" creationid="jordi" creationdate="20191121T091249Z">
+        <seg>Latitude (ºN)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Main output file. It contains the simulated epilimnion and hypolimnion temperature at the requested output periodicity.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier de sortie principale. Il contient la température simulée de l'épilimnion et de l'hypolimnion avec la périodicité de sortie sollicitée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Markofsky, M. and Harleman, D. R. F. (1971) *A predictive model for thermal stratification and water quality in reservoirs.* Environmental Protection Agency.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091206Z" creationid="jordi" creationdate="20191121T091206Z">
+        <seg>Markofsky, M. and Harleman, D. R. F. (1971) *A predictive model for thermal stratification and water quality in reservoirs.* Environmental Protection Agency.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Max.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091234Z" creationid="jordi" creationdate="20191121T091234Z">
+        <seg>Max.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Max. depth (m)</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Profondeur max. (m)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Max. surface (km\ :sup:`2`\ )</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Surface max. (km\ :sup:`2`\ )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Max. volume (hm\ :sup:`3`\ )</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Volume max. (hm\ :sup:`3`\ )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Meteorological data may be provided at three different frequencies: daily, weekly and monthly.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Il est possible de munir les données météorologiques avec trois fréquences différentes : journalière, hebdomadaire et mensuelle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Min.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091225Z" creationid="jordi" creationdate="20191121T091225Z">
+        <seg>Min.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Module ``input_output``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091146Z" creationid="jordi" creationdate="20191121T091146Z">
+        <seg>Module ``input_output``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Module ``okp_model``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091200Z" creationid="jordi" creationdate="20191121T091200Z">
+        <seg>Module ``okp_model``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Module ``parameter_constants``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T090254Z" creationid="jordi" creationdate="20191121T090254Z">
+        <seg>Module ``parameter_constants``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Module ``parameter_functions``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T090242Z" creationid="jordi" creationdate="20191121T090242Z">
+        <seg>Module ``parameter_functions``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Module ``time_functions``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091151Z" creationid="jordi" creationdate="20191121T091151Z">
+        <seg>Module ``time_functions``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Module ``validation``</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091209Z" creationid="jordi" creationdate="20191121T091209Z">
+        <seg>Module ``validation``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Modules</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T090246Z" creationid="jordi" creationdate="20191121T090246Z">
+        <seg>Modules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>OKP lake model constants.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Constantes du modèle de lacs OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>OKP lake model functions.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fonctions du modèle de lacs OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Obligatory input file. It contains air temperature and solar radiation data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier d'entrée obligatoire. Il contient données de température de l'air et rayonnement solaire.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Optional input file. It contains lake characteristics (depth, surface, volume, altitude, latitude).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier d'entrée optionnel. Il contient les caractéristiques du lac (profondeur, surface, volume, altitude, latitude).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Optional input file. It contains the value of the model parameters.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier d'entrée optionnel. Il contient la valeur des paramètres du modèle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Optional observational data file used for the calculation of performance indicators.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier de données observées optionnel utilisé pour calculer indicateurs de performance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Optional output file. It contains performance statistics of the simulation, calculated if ``validation_data_file`` and ``validation_res_file`` are defined.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Fichier de sortie optionnel. Il contient statistiques de la simulation, calculées si ``validation_data_file`` et ``validation_res_file`` sont définis.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Other useful functions are ``okplm.read_dict()`` and ``okplm.write_dict()``, which can be used to read and write the lake data and parameter files.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>D'autres fonctions utiles sont ``okplm.read_dict()`` et ``okplm.write_dict()``, qui peuvent être utilisées pour lire et écrire les fichiers de lac et des paramètres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Otherwise, parameter values defined by the user may be used. Parameter values for other geographical settings may be found in the works by Ottosson &amp; Abrahamsson (1998) (Swedish lakes) and Kettle *et al.* (2004) (epilimnion temperatures for southwest Greenland lakes).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Sinon, des valeurs des paramètres définies par l'utilisateur peuvent être utilisées. Il est possible de trouver des valeurs des paramètres pour d'autres régions dans les travaux d'Ottosson &amp; Abrahamsson (1998) (lacs suèdes) et Kettle *et al.* (2004) (température de l'épilimnion pour lacs du sud-ouest de Groenland).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Ottosson, F.; Abrahamsson, O. (1998) Presentation and analysis of a model simulating epilimnetic and hypolimnetic temperatures in lakes. *Ecological Modelling*, 110, 233-253, doi: `10.1016/S0304-3800(98)00067-2 &lt;https://doi.org/10.1016/S0304-3800(98)00067-2&gt;`_.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091304Z" creationid="jordi" creationdate="20191121T091304Z">
+        <seg>Ottosson, F.; Abrahamsson, O. (1998) Presentation and analysis of a model simulating epilimnetic and hypolimnetic temperatures in lakes. *Ecological Modelling*, 110, 233-253, doi: `10.1016/S0304-3800(98)00067-2 &lt;https://doi.org/10.1016/S0304-3800(98)00067-2&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Output data</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Données de sortie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Parameters</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Paramètres</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Parse command line arguments and run the OKP model.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Analyse les arguments en ligne de commande arguments et exécute le modèle OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Pierre-Alain Danis (pierre-alain.danis@afbiodiversite.fr)</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091301Z" creationid="jordi" creationdate="20191121T091301Z">
+        <seg>Pierre-Alain Danis (pierre-alain.danis@afbiodiversite.fr)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Please note that the software understands the tilde '~' expansion, so that you may use instead:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Veuillez noter que le logiciel comprends le remplacement du tilde '~', de façon que vous pouvez utiliser aussi :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Plotting of results</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145858Z" creationid="jordi" creationdate="20191121T145858Z">
+        <seg>Visualisation des résultats</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Prats, J.; Danis, P.-A. (2015) Optimisation du réseau national de suivi pérenne in situ de la température des plans d'eau: apport de la modélisation et des données satellitaires. Final report. Irstea-Onema, Aix-en-Provence. 93 p. https://www.documentation.eauetbiodiversite.fr/notice/optimisation-du-reseau-national-de-suivi-perenne-in-situ-de-la-temperature-des-plans-d-eau-apport-de0</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091306Z" creationid="jordi" creationdate="20191121T091306Z">
+        <seg>Prats, J.; Danis, P.-A. (2015) Optimisation du réseau national de suivi pérenne in situ de la température des plans d'eau: apport de la modélisation et des données satellitaires. Final report. Irstea-Onema, Aix-en-Provence. 93 p. https://www.documentation.eauetbiodiversite.fr/notice/optimisation-du-reseau-national-de-suivi-perenne-in-situ-de-la-temperature-des-plans-d-eau-apport-de0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature model based on air temperature and lake characteristics. *Knowledge and Management of Aquatic Ecosystems*, 420, 8, doi: 10.1051/kmae/2019001.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091319Z" creationid="jordi" creationdate="20191121T091319Z">
+        <seg>Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature model based on air temperature and lake characteristics. *Knowledge and Management of Aquatic Ecosystems*, 420, 8, doi: 10.1051/kmae/2019001.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature model based on air temperature and lake characteristics. *Knowledge and Management of Aquatic Ecosystems*, 420, 8, doi: `10.1051/kmae/2019001 &lt;https://doi.org/10.1051/kmae/2019001&gt;`_.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091308Z" creationid="jordi" creationdate="20191121T091308Z">
+        <seg>Prats, J.; Danis, P.-A. (2019) An epilimnion and hypolimnion temperature model based on air temperature and lake characteristics. *Knowledge and Management of Aquatic Ecosystems*, 420, 8, doi: `10.1051/kmae/2019001 &lt;https://doi.org/10.1051/kmae/2019001&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Preliminary steps</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pas préliminaires</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Presentation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Présentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Providing either ``lake_file`` or ``par_file`` is necessary. If the ``par_file`` is given, the program uses parameter values in ``par_file``. Otherwise, the ``lake_file`` is required and the program calculates the model parameters from the lake characteristics included in the ``lake_file``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Il est nécessaire de fournir soit ``lake_file`` soit ``par_file``. Si ``par_file`` est donné, le programme utilise les valeurs des paramètres dans ``par_file``. En cas contraire, il faut donner ``lake_file`` et le programme calcule les paramètres du modèle depuis les caractéristiques du lac spécifiées dans ``lake_file``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Python code</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Code Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Python module</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Module Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Read lake or parameter file to dictionary.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Lit fichier de lac ou de paramètres et stocke dans un dictionnaire.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>References</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Références</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Remember you may use the tilde '~' expansion.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>À nouveau, vous pouvez utiliser le tilde '~'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Requirements and dependencies</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T114644Z">
+        <seg>Exigences et dépendances</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Return indices of dates comprised between two dates.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Retourne les indices des dates comprises entre deux dates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Returns</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T095021Z">
+        <seg>Retour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Run the OKP model.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Exécute le modèle OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Running the model</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150451Z" creationid="jordi" creationdate="20191121T150451Z">
+        <seg>Exécution du modèle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Similarly, the results are written by default to ``output.txt``, but you can use define another name using ``-o``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>De façon similaire, les résultats sont écrit par défaut dans ``output.txt``, mais vous pouvez définir un autre nom avec ``-o``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Some help documents have been written using markdown (README.md, package_description.md).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Quelques documents d'aide ont été écrits en format markdown (README.md, package_description.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Start and end of simulation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Début et fin de la simulation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Tests</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150139Z" creationid="jordi" creationdate="20191121T150139Z">
+        <seg>Tests</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The OKP model produces three types of output data:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150347Z" creationid="jordi" creationdate="20191121T150347Z">
+        <seg>Le modèle OKP produit trois types de données de sortie :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The OKP model simulates water temperature at the daily frequency using air temperature and solar radiation as forcing data. It is the result of the combination of the models presented by Ottosson &amp; Abrahamsson (1998) and Kettle *et al.* (2004). The development of the model was funded by the ONEMA (French National Office for Water and Aquatic Environments) and a preliminary version was presented in the report by Prats &amp; Danis (2015). The definitive version was published by Prats &amp; Danis (2019).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le modèle OKP simule la température de l'eau à fréquence journalière utilisant la température de l'air et le rayonnement solaire comme données d'entrée. C'est le résultat de la combinaison des modèles présentés par Ottosson &amp; Abrahamsson (1998) et Kettle *et al.* (2004). Le développement du modèle a été financé par l'ONEMA (Office National de l'Eau et des Milieux Aquatiques) et une version préliminaire a été présentée dans le rapport par Prats &amp; Danis (2015). La version définitive a été publiée par Prats &amp; Danis (2019).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The ``okplm`` package is originally written in English and translated into French. This section describes the process to translate the `User and Developer Guide` by using pot and po files and the package ``sphinx-intl``. Using this method only the modified sections of text need to be translated again when modifications are made to the original documentation. It also facilitates the translation of docstrings and module documentation. The translation instructions are based on https://sphinx-doc.org/en/1.8/intl.html.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le package ``okplm`` a été écrit originalement en anglais et traduit en français. Cette section décrit le procès pour traduire le `Guide d'Utilisation et Développement`, qui utilise des fichiers pot et po et le package ``sphinx-intl``. L'utilisation de cette méthode permet de traduire seulement les sections modifiées quand il y a des modifications de la modification originelle. Cette méthode facilite aussi la traduction des docstrings et de la documentation des modules. Les instructions de traduction sont basées sur https://sphinx-doc.org/en/1.8/intl.html.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The application ``okplm`` depends on the Python package ``numpy``. Make sure it is installed before using ``okplm``. To plot simulation results using the provided test scripts you will also need the package ``plotly``.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150136Z" creationid="jordi" creationdate="20191121T150136Z">
+        <seg>L'application ``okplm`` dépend du package Python ``numpy``. Assurez-vous qu'il est installé avant l'utilisation de ``okplm``. Pour visualiser les résultats du modèle avec les scripts fournis de test vous devez installer aussi le paquet ``plotly``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The daily simulated epilimnion temperature in degrees C.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La température simulée de l'épilimnion en dégrées C.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The daily simulated hypolimnion temperature in ºC.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La température simulée de l'hypolimnion en ºC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The data</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145329Z" creationid="jordi" creationdate="20191121T145329Z">
+        <seg>Les données</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The documentation in French is saved in the folder ``build_fr``. To compile the user manual in French as html files go to the folder ``pathtorepertoryokplm/sphinx-doc`` and type:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La documentation en français est sauvegardée dans le dossier ``build_fr``. Pour compiler le manuel d'utilisation en français comme fichiers html allez au dossier ``pathtorepertoryokplm/sphinx-doc`` et tapez :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The estimated value of the parameter *A* according to Eq. (21) in Prats &amp; Danis (2019, p.6).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La valeur estimée du paramètre *A* d'après l'Éq. (21) dans Prats &amp; Danis (2019, p.6).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The estimated value of the parameter *B* according to Eq. (24) in Prats &amp; Danis (2019, p.6).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La valeur estimée du paramètre *B* d'après l'Éq. (24) dans Prats &amp; Danis (2019, p.6).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The estimated value of the parameter *C* according to Eq. (25) in Prats &amp; Danis (2019, p. 6).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La valeur estimée du paramètre *C* d'après l'Éq. (25) dans Prats &amp; Danis (2019, p.6).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The estimated value of the parameter *E* according to Eq. (28) in Prats &amp; Danis (2019, p. 10).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La valeur estimée du paramètre *C* d'après l'Éq. (28) dans Prats &amp; Danis (2019, p. 10).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The estimated value of the parameter :math:`\alpha` according to Eq. (23) in Prats &amp; Danis (2019, p. 6).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La valeur estimée du paramètre :math:`\alpha` d'après l'Éq. (23) dans Prats &amp; Danis (2019, p. 6).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The estimated value of the parameter :math:`\beta` according to Eq. (27) in Prats &amp; Danis (2019, p. 9).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La valeur estimée du paramètre :math:`\beta` d'après l'Éq. (27) dans Prats &amp; Danis (2019, p. 9).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The file contains data for the dates for which measurements are available. You may provide data for only one of tepi or thyp::</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le fichier contient données pour les dates où il y a des mesures disponibles. Vous pouvez fournier des données seulement pour une d'entre tepi et thyp::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The file is structured in (at most) three columns separated by white spaces:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le fichier est organisé en (au maximum) trois colonnes séparées par espaces vides :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The file is structured in six columns separated by white spaces:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le fichier est organisé en six colonnes séparées par espaces vides :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The file is structured in three columns separated by white spaces:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le fichier est organisé en trois colonnes séparées par espaces vides :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The file is structured in two columns, separated by blanks. The first column contains the names of the parameters and the second one contains their values. The parameter names are:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le fichier est organisé en deux colonnes, séparées par espaces. La première colonne contient les noms des paramètres et la deuxième contient leurs valeurs. Les noms des paramètres sont :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The file is structured in two columns, separated by blanks. The first column contains the names of the variables and the second one contains their values. The variable names are:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le fichier est organisé en deux colonnes, séparées par espaces. La première colonne contient les noms des variables et la deuxième contient leurs valeurs. Le noms des variables sont :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The first line of results corresponds to the epilimnion, and the second line of results corresponds to the hypolimnion.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La première ligne des résultats correspond à l'épilimnion, et la deuxième ligne des résultats correspond à l'hypolimnion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The folder ``tests`` contains 2 scripts to test the functionalities of the package `okplm`:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150231Z" creationid="jordi" creationdate="20191121T150231Z">
+        <seg>Le dossier ``tests`` contient 2 scripts permettant de tester les fonctionnalités du paquet ``okplm`` :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The functions in this module are used to read the configuration and input data files of the OKP lake model, as well as for writing the results to a text file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fonctions de ce module servent à lire les fichiers de configuration et d'entrée du modèle de lacs OKP, ainsi qu'à écrire les résultats dans un  fichier texte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The functions included in this module are:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fonctions incluses dans ce module sont :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The included functions are:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fonctions incluses sont :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The model reads input and configuration data from three text files, one obligatory (``meteo_file``) and two optional (``lake_file`` and ``par_file``). Field data used for validation may also be read from a text file (``validation_data_file``). Once you have created the input files, you can use the ``okplm`` package as a command line application or a Python module.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T092104Z">
+        <seg>Le modèle lit les données d'entrée et de configuration depuis trois fichiers texte, un obligatoire (``meteo_file``) et deux optionnels (``lake_file`` et ``par_file``). Les données de terrain utilisées pour la validation peuvent être lues depuis un fichier texte (``validation_data_file``). Une fois vous avez créé les fichiers d'entrée, vous pouvez utiliser le paquet ``okplm`` comme une application en ligne de commande ou un module Python.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The model uses the given parameter values (``par.txt``) and the daily meteorological data (``meteo.txt``). The file ``lake.txt`` is not necessary.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145844Z" creationid="jordi" creationdate="20191121T145844Z">
+        <seg>Le modèle utilise donc les valeurs de paramètre (``par.txt``) et les données météorologiques journalières (``meteo.txt``). Le fichier ``lake.txt`` n'est pas nécessaire.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The output html files are saved in the folder ``pathtorepertoryokplm/sphinx-doc/build/html``</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers html de sortie sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build/html``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The output html files are saved in the folder ``pathtorepertoryokplm/sphinx-doc/build_fr/html``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers html de sortie sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build_fr/html``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The output of daily simulations can be given at ``daily``, ``weekly`` or ``monthly`` frequency using the argument ``output_periodicity``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La sortie des simulations journalières peut être donnée à fréquence journalière (``daily``), hebdomadaire (``weekly``) ou mensuelle (``monthly``) avec l'argument ``output_periodicity``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The package ``sphinx`` works by default with reStructuredText documents. However, it can also recognise Markdown by installing the Markdown parser ``recommonmark``.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091542Z">
+        <seg>Le paquet ``sphinx`` travaille par défaut avec documents de type reStructuredText. Mais il peut aussi reconnaître le formatage Markdown si on installe le parseur Markdown ``recommonmark``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The pairs of names-values may be specified in any order.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les paires de noms-valeurs peuvent être spécifiés dans n'importe quel ordre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The po files contain pairs of segments of text in the source (msgid) and target language (msgstr).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers po contiennent paires de segments de texte dans les langues source (msgid) et cible (msgstr).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The remaining test case (synthetic_case_par_given) exemplifies the case when the parameter file is given. The data are in the folder:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145803Z" creationid="jordi" creationdate="20191121T145742Z">
+        <seg>Le dernier cas de test (``synthetic_case_par_given``) est le cas où un fichier utilisateur des paramètres du modèle est donné en entrée. Les données sont dans le dossier :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The resulting po files are stored in the folder ``source/locale/fr/LC_MESSAGES``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers po créés sont stockés dans le dossier ``source/locale/fr/LC_MESSAGES``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The resulting pot files are saved in the folder ``build/gettext``. They contain the translatable text broken down into segments.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers pot créés sont stockés dans le dossier ``build/gettext``. Ils contiennent le texte traduisible coupé en segments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The results are then presented as an html file such as:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150001Z" creationid="jordi" creationdate="20191121T150001Z">
+        <seg>Les résultats sont alors présentés sous la forme d'un fichier html de ce type :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The simulations</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145525Z" creationid="jordi" creationdate="20191121T145525Z">
+        <seg>Les simulations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The source documentation files are converted to latex and then to pdf. The output latex and pdf files are saved in the folder ``pathtorepertoryokplm/sphinx-doc/build/latex``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers source de la documentation sont convertis à latex et après à pdf. Les fichiers latex et pdf de sortie sont stockés dans le dossier  ``pathtorepertoryokplm/sphinx-doc/build/latex``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The source documentation files are converted to latex and then to pdf. The output latex and pdf files are saved in the folder ``pathtorepertoryokplm/sphinx-doc/build_fr/latex``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers source de documentation sont convertis vers latex et après vers pdf. Les fichiers latex et pdf de sortie sont sauvegardés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build_fr/latex``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The source files for the project user manual are stored in the folder ``pathtorepertoryokplm/sphinx-doc/source``. Sphinx also extracts data from the project modules docstrings. To compile the user manual as html files go to the folder ``pathtorepertoryokplm/sphinx-doc`` and type:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Les fichiers source du manuel d'utilisation du projet sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/source``. Sphinx extrait aussi des données des docstrings des modules du projet. Pour compiler le manuel d'utilisation en html allez au dossier ``pathtorepertoryokplm/sphinx-doc`` et tapez :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The translation of the documentation files is based on the extraction of the translatable text into pot (portable object template) files and the creation of translated text in po (portable object) files. For this, the package ``sphinx-intl`` is used.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La traduction des fichiers de documentation est basé sur l'extraction du texte traduisible en fichiers pot (portable object template) et la création de texte traduit en fichiers po (portable object). Pour ça, le package ``sphinx-intl`` est utilisé.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The user manual has been generated using ``sphinx`` from files using `reStructuredText &lt;http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html&gt;`_ markup language. The documentation translated into French has been created using ``sphinx-intl``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Le manuel d'utilisation a été généré avec ``sphinx`` depuis fichiers en format markup `reStructuredText &lt;http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html&gt;`_ . La documentation traduite en français a été créé avec ``sphinx-intl``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>The water density (kg/m\ :sup:`3`\ ) calculated using the formula by Markofsky &amp; Harleman (1971).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>La densité de l'eau (kg/m\ :sup:`3`\ ) est calculée avec la formule de Markofsky &amp; Harleman (1971).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Then you need to generate the po files for each target language. For example, for French you need to do</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Alors vous devez générer les fichiers po pour chaque langue cible. Par exemple, pour la langue française vous devez faire</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Then, type::</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Après, tapez::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Then, you only need to translate the modified segments.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Après, vous devrez traduire seulement les segments modifiés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This command creates the ``okplm`` repertory in ``pathtoprojectsfolder``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Cette commande crée le répertoire ``okplm`` dans ``pathtoprojectsfolder``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This function fits a sinusoidal function of the form:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Cette fonction cale une fonction sinusoïdale du type :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This module contains functions for time operations (e.g., time averaging or selection of date ranges).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ce module contient fonctions pour des opérations temporelles (p. ex., calcul de la moyenne sur une période ou sélection de rangs de dates).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This module contains only one function, used to validate simulation results:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ce module contient uniquement une fonction, utilisée pour valider les résultats de simulation :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This module contains the definition of the functions used to estimate the value of the parameters used by the OKP lake model. These equations were derived in Prats &amp; Danis (2019).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ce module contient les définitions des fonctions utilisées pour estimer la valeur des paramètres utilisés par le modèle de lacs OKP. Ces équations ont été obtenues par Prats &amp; Danis (2019).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This module contains the following functions:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ce module contient les fonctions suivantes :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This module contains the functions used to calculate epilimnion and hypolimnion temperature corresponding to the OKP model, described in Prats &amp; Danis (2019).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ce module contient les fonctions utilisées pour calculer la température de l'épilimnion et de l'hypolimnion d'après le modèle OKP, décrit dans Prats &amp; Danis (2019).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>This module defines the constants of the equations used to estimate the parameter values of the model OKP as a function of water body characteristics. The constants are defined in Prats &amp; Danis (2019).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ce module définit les constantes des équations utilisées pour estimer les valeurs des paramètres du modèle OKP en fonction des caractéristiques des plans d'eau. Les constantes sont définies dans Prats &amp; Danis (2019).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Three of the cases are used to exemplify the usage of ``okplm`` for three different periodicities. The necessary data for these tests can be found in the folders:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145447Z" creationid="jordi" creationdate="20191121T145447Z">
+        <seg>Trois tests peuvent être réalisés avec ``test_script.py`` pour illustrer l’utilisation de ``okplm`` pour trois différentes fréquences. Les données nécessaires pour ces trois tests sont dans les dossiers :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Thus to translate the text you need to edit the po files and type de translated text beside msgstr:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Ainsi pour traduire le texte vous devez éditer les fichiers po et taper le texte traduit à côté msgstr :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To calculate water temperatures with ``okplm`` a series of parameters need to be defined. It is possible to use the default parameters obtained for French water bodies. These values are the result of the parameterisation as a function of lake characteristics (latitude, altitude, maximum depth, surface area, volume) proposed by Prats &amp; Danis (2019). This parameterisation was derived by analysing official data for 414 French water bodies greater than 0.06 km\ :sup:`2`\ . The following table summarises the characteristics of these water bodies and defines the expected ranges of applicability of the default parameterisation.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour calculer la température de l'eau avec ``okplm`` il faut définir une série de paramètres. Il est possible d'utiliser les paramètres par défaut obtenus pour les plans d'eau français. Ces valeurs sont le résultat de la paramétrisation en fonction des caractéristiques des lacs (latitude, altitude, profondeur maximale, aire de surface, volume) proposée par Prats &amp; Danis (2019). Cette paramétrisation a été obtenue après analyse de données officielles pour 414 plans d'eau français plus larges de 0,06 km\ :sup:`2`\ . La table suivante résume les caractéristiques de ces plans d'eau et définit les rangs espérés d'applicabilité de la paramétrisation par défaut.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To compile pdf documents (only in Linux), you will also need to have installed latex and the Python package ``latexmk``. To install latex, type:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091601Z">
+        <seg>Pour compiler documents pdf (seulement sous Linux), il vous faudra installer aussi latex et le paquet Python ``latexmk``. Pour installer latex, tapez :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To compile the pdf documentation, type the following commands:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour compiler la documentation en pdf, tapez les commandes suivantes :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To create multilingual documentation, you will need the package ``sphinx-intl``. The installation process is as above:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091553Z">
+        <seg>Pour créer documentation multilingue, vous avez besoin du paquet ``sphinx-intl``. Le procès d'installation est comme ci-dessus :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To extract the document's translatable messages into pot files, change to the ``sphinx-doc`` directory in the terminal and do:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour extraire les messages traduisibles du document vers des fichiers pot, changez au dossier ``sphinx-doc`` dans le terminal et faites :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To install ``okplm``, go to the repertory where it has been cloned and install it using ``setuptools`` or ``pip``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour installer ``okplm``, allez au répertoire où il a été cloné et installe-le avec ``setuptools`` ou ``pip``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To obtain help on this function type "run_okp -h" in the command line.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour obtenir aide sur cette fonction tapez "run_okp -h" en ligne de commande.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To run ``okplm`` in the command line, change to the directory containing the input files and make:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour exécuter ``okplm`` en ligne de commande, changez au dossier qui contient les fichiers d'entrée et faites :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To run the model, first define the names of the different input and output files. For example::</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour exécuter le modèle, d'abord définissez les noms des différents fichiers d'entrée et de sortie. Par exemple::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>To use ``okplm`` as a Python module you can simply import it and use the functions within::</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pour utiliser ``okplm`` comme un module Python vous pouvez simplement l'importer et utiliser les fonctions qu'il contient::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Translation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Traduction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Translation of the project's documentation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Traduction de la documentation du projet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Update of documentation</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Mise à jour de la documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Update of the translated documentation</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145154Z" creationid="jordi" creationdate="20191121T145154Z">
+        <seg>Mise à jour de la documentation traduite</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Usage</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Utilisation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Using ``pip``:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Avec ``pip`` :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Using ``septuptools``:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Avec ``septuptools`` :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Variable</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091213Z" creationid="jordi" creationdate="20191121T091213Z">
+        <seg>Variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>We have followed the `PEP 08 -- Style Guide for Python Code &lt;https://www.python.org/dev/peps/pep-0008/&gt;`_.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Nous avons suivi la `Guide de style pour code Python PEP 08 &lt;https://www.python.org/dev/peps/pep-0008/&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>We have followed the `PEP 257 -- Docstring Conventions &lt;https://www.python.org/dev/peps/pep-0257/&gt;`_ and the recommendations of the *Google Python Style Guide* for docstrings in functions (point `3.8.1 &lt;http://google.github.io/styleguide/pyguide.html#383-functions-and-methods&gt;`_).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Nous avons suivi les `Conventions Docstrings -- PEP 257 &lt;https://www.python.org/dev/peps/pep-0257/&gt;`_ et les recommandations de la *Google Python Style Guide* pour docstrings dans des fonctions (point `3.8.1 &lt;http://google.github.io/styleguide/pyguide.html#383-functions-and-methods&gt;`_).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Welcome to ``okplm``'s documentation!</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Bienvenue à la documentation de ``okplm`` !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>What is the ``okplm`` package?</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091915Z">
+        <seg>Qu'est-ce que c'est le paquet ``okplm`` ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>When calling the function ``run_okp()``, you can specify the dates of start and end of the simulation by using the arguments ``start_date`` and ``end_date`` (or ``-s`` and ``-e`` in the command line). The format of the dates is 'yyyy-mm-dd'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Quand vous appelez la fonction ``run_okp()``, vous pouvez spécifier les dates de début et fin de simulation avec les arguments ``start_date`` et ``end_date`` (ou ``-s`` et ``-e`` en ligne de commande). Le format des dates est 'aaaa-mm-jj'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>When doing so you need to be careful to maintain the reST formatting in the translated version.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Pendant que vous faites ça il faut faire attention à maintenir le formatage reST dans la version traduite.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>Write dictionary to file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Écrit dictionnaire à un fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You can also compile the user manual as a pdf file making:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Vous pouvez compiler aussi le manuel d'utilisation en pdf avec :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You can do the translation by hand by modifying the po files. However, it is more efficient to use a PO editor (e.g., GNOME Translation Editor or PO edit) or computer assisted translation (CAT) software such as OmegaT.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Vous pouvez faire la traduction manuellement modifiant les fichiers po. Par contre, il est plus efficient d'utiliser un éditeur PO (p. ex., GNOME Traduction Editor ou PO edit) ou des logiciels de traduction assistée par ordinateur (TAO) comme OmegaT.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You can include the previous commands in a Python script (see the example script ``test_script.py``). To run a python script from the command line, type:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Vous pouvez inclure les commandes précédentes dans un script Python (voyez le script d'exemple ``test_script.py``). Pour exécuter un script python script en ligne de commande, tapez :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You can limit the length of the simulation by specifying the start and end dates:</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Vous pouvez limiter la durée de la simulation spécifiant les dates de début et fin :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You can plot the simulation results with the function ``plotlyoutput()`` in the module ``tests/plotly_functions.py``, in addition to validation criteria (n, sd, r, me, mae et rmse) and observations, if they are available, with the instruction :</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145939Z" creationid="jordi" creationdate="20191121T145939Z">
+        <seg>La fonction ``plotlyoutput()`` dans le script ``plotly_functions.py`` permet de visualiser les résultats des simulations ainsi que, le cas échéant, les valeurs des critères de validation (n, sd, r, me, mae et rmse) et les observations avec la formulation suivante :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You can test the application with examples provided. The package contains four data examples in the folder ``examples``. An associated Python script (``test_script.py``) and a module based on the ``plotly`` package (``plotly_fonctions.py``) to plot results are available in the folder ``tests``.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145325Z" creationid="jordi" creationdate="20191121T145325Z">
+        <seg>Vous pouvez tester le logiciel à l'aide des exemples de fichiers fournis. Le paquet contient quatre exemples de données dans le dossier 
+``examples``, un exemple de script Python (``tests/test_script.py``), et un module basée sur le paquet ``plotly`` (``tests/plotly_fonctions.py``) et permettant de visualiser les résultats.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You may also define a start, an end date and a periodicity for the simulations::</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>Vous pouvez aussi définir le début, la date de fin et la périodicité des simulations::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You might be interested in installing a development branch of the project. Then, after cloning the ``okplm`` package you need to change to the ``dev`` branch:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091740Z">
+        <seg>Vous pourriez être intéressés à installer une branche de développement du projet. Dans ce cas, après avoir cloné le paquet ``okplm`` vous devez changer à la branche ``dev`` :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You need Python 3.5 or later to run the ``okplm`` package. You can have multiple Python versions (2.x and 3.x) installed on the same system without problems using virtual environments.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091508Z">
+        <seg>Il est nécessaire d'avoir une version Python 3.5 ou ultérieure pour faire tourner le paquet ``okplm``. Il est possible d'avoir plusieurs versions de Python (2.x et 3.x) installées sur le même système d'exploitation en utilisant les environnements virtuels.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>You need to clone the ``okplm`` package with git. For this go to an appropriate directory where to copy the project's code and clone the ``okplm`` project:</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091716Z">
+        <seg>Vous devez cloner le paquet ``okplm`` avec git. Pour ça, placez-vous dans un dossier approprié où copier le code du projet et clonez le projet ``okplm`` :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>``okplm`` (Ottosson-Kettle-Prats lake model) is a package in Python 3 used to simulate the epilimnion and hypolimnion temperature of freshwater bodies using the Ottosson-Kettle-Prats (OKP) lake model (Prats &amp; Danis, 2019).</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T091930Z">
+        <seg>``okplm`` (modèle de lacs d'Ottosson-Kettle-Prats) est un paquet en Python 3 utilisé pour simuler la température de l'épilimnion et de l'hypolimnion des masses d'eau douce avec le modèle de lacs d'Ottosson-Kettle-Prats (OKP) (Prats &amp; Danis, 2019).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a Python dictionary.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire Python.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the independent variable 'altitude' (m).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur de la variable indépendante 'altitude' (m).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the independent variable 'zmax' (m).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur de la variable indépendante 'zmax' (m).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the independent variables 'altitude' (m), 'surface' (m\ :sup:`2`\), and 'volume' (m\ :sup:`3`\).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des variables indépendantes 'altitude' (m), 'surface' (m\ :sup:`2`\), et 'volume' (m\ :sup:`3`\).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the independent variables 'latitude' (degrees North), 'altitude' (m) and 'surface' (m\ :sup:`2`\).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des variables indépendantes 'latitude' (dégrées Nord), 'altitude' (m) et 'surface' (m\ :sup:`2`\).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the independent variables 'latitude' (degrees North), 'altitude' (m), 'zmax' (m), 'surface' (m\ :sup:`2`\ ), 'volume' (m\ :sup:`3`\).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des variables indépendantes 'latitude' (dégrées Nord), 'altitude' (m), 'zmax' (m), 'surface' (m\ :sup:`2`\ ), 'volume' (m\ :sup:`3`\).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the independent variables 'surface' (m\ :sup:`2`\) and 'volume' (m\ :sup:`3`\).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des variables indépendantes 'surface' (m\ :sup:`2`\) et 'volume' (m\ :sup:`3`\).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'A1' to 'A4'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'A1' à 'A4'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'ALPHA1' to 'ALPHA4'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'ALPHA1' à 'ALPHA4'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'ALPHA1'-'ALPHA4', 'BETA1'-'BETA3', 'A1'-'A4', 'B1'-'B2', 'C1'-'C2', 'D', 'E1'-'E3'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'ALPHA1'-'ALPHA4', 'BETA1'-'BETA3', 'A1'-'A4', 'B1'-'B2', 'C1'-'C2', 'D', 'E1'-'E3'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'B1' to 'B2'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'B1' à 'B2'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'BETA1' to 'BETA3'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'BETA1' à 'BETA3'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'C1' to 'C2'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'C1' à 'C2'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary indicating the value of the parameter constants 'E1' to 'E3'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire qui indique la valeur des constantes 'E1' à 'E3'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary with values for the parameters ALPHA, A, B and C.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire avec valeurs des paramètres ALPHA, A, B et C.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>a dictionary with values for the parameters BETA, A, D and E.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>un dictionnaire avec valeurs des paramètres BETA, A, D et E.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>altitude: altitude above sea level (m)</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>altitude : altitude sur le niveau de la mer (m)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>array of response data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>array de données de réponse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>array of time data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>array de données de temps.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>array with simulated values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>array avec des valeurs simulées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>calc_epilimnion_temperature: calculate epilimnion temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>calc_epilimnion_temperature : calcule la température de l'épilimnion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>calc_hypolimnion_temperature: calculate hypolimnion temperature.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>calc_hypolimnion_temperature : calcule la température de l'hypolimnion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>daily air temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>température de l'air journalière (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>daily epilimnion temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>température de l'épilimnion journalière (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>daily solar radiation (W/m\ :sup:`2`\ ).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>rayonnement solaire journalier (W/m\ :sup:`2`\ ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>daily_f: apply function on daily periods.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>daily_f : applique fonction sur des périodes journalières.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>data sequence, the same length of t.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>séquence de données de la même longitude que t.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>date of end of the simulation in the format 'YYYY-mm-dd'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>date de finalisation de la simulation avec le format 'AAAA-mm-jj'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>date of start of the simulation in the format 'YYYY-mm-dd'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>date de début de la simulation avec le format 'AAAA-mm-jj'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>date: date in the format 'yyyy-mm-dd'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>date : date avec le format 'aaaa-mm-jj'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>datetime sequence at daily or subdaily frequency. There should not be missing timestamps.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>séquence de type datetime à fréquence journalière ou infra-journalière. Il ne devrait pas y avoir des données manquantes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>datetime sequence at daily/subdaily frequency. There should not be missing timestamps.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>séquence de type datetime à fréquence journalière ou infra-journalière. Il ne devrait pas y avoir des données manquantes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>datetime sequence at subdaily frequency. Missing timestamps are not allowed.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>séquence de type datetime à fréquence infra-journalière. Les données manquantes ne sont pas permises.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>error_statistics: calculate error statistics.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>error_statistics : calcule statistiques d'erreur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_par_a: estimate parameter A.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_par_a : estime le paramètre A.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_par_alpha: estimate parameter alpha.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_par_alpha : estime le paramètre alpha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_par_b: estimate parameter B.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_par_b : estime le paramètre B.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_par_beta: estimate parameter beta.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_par_beta : estime le paramètre beta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_par_c: estimate parameter C.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_par_c : estime le paramètre C.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_par_e: estimate parameter E.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_par_e : estime le paramètre E.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimate_parameters: estimate OKP parameter values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>estimate_parameters : estime les valeurs des paramètres d'OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>estimated parameter values (if not provided by the user), saved to the file ``par_file`` described above.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150438Z" creationid="jordi" creationdate="20191121T150438Z">
+        <seg>valeurs estimées des paramètres (si non fournies par utilisateur), sauvegardées au fichier ``par_file`` décrit ci-dessus.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>examples/synthetic_case_given : daily data</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145753Z" creationid="jordi" creationdate="20191121T145753Z">
+        <seg>examples/synthetic_case_given : données journalières</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>fit_sinusoidal: fit a sinusoidal function.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>fit_sinusoidal : cale une fonction sinusoïdale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>indicators of simulation performance (if validation data is provided), saved to the file ``validation_res_file``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>indicateurs de la performance des simulations (s'il y a des données de validation), sauvegardés dans le fichier ``validation_res_file``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>initial date in datetime format.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>date initiale en format datetime.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>last date in datetime format.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>date finale en format datetime.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>latitude: latitude (º)</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>latitude : latitude (º)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>length of the period in time units.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>longueur de la période en unités de temps.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>list or array of dates in datetime format.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>liste ou array de dates en format datetime.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>mae: mean absolute error.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>mae : erreur absolue moyenne.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>main: parse command line arguments and run the OKP model.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>main : analyse les arguments en ligne de commande et exécute le modèle OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>mat: mean annual air temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>mat : température moyenne annuelle de l'air (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>me: mean error.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>me : erreur moyenne.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>monthly_f: apply function on monthly periods.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>monthly_f : applique fonction sur des périodes mensuelles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>n: number of measurements.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>n : nombre de mesures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>name: lake name or code (optional, to identify the lake)</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>name : nom ou code du lac (optionnel, pour identifier le lac)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>observed values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>valeurs observées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of text file. The file should be structured in two columns separated by a space; the first column contains key names and the second column contains their values.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier texte. Le fichier devrait être organisé en deux colonnes séparées par un espace ; la première colonne contient les noms des clés et la deuxième colonne contient ses valeurs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the file containing observational data to calculate error statistics. If validation_data_file is defined, you need to define also validation_res_file. If None, error statistics are not calculated. Validation is only implemented for 'daily' simulations.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier contenant données observées pour calculer les statistiques d'erreur. Si validation_data_file est défini, il faut définir aussi validation_res_file. Si c'est None, les statistiques d'erreur ne sont pas calculées. La validation est implémentée uniquement pour simulations journalières.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the file where validation results will be written. It requires the definition of a valid validation_data_file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier où écrire les résultats de la validation. Il nécessite la définition d'un fichier validation_data_file valide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the lake data file (optional, it is only necessary if par_file is not provided).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin fichier de données de lac (optionnel, seulement nécessaire si par_file n'est pas muni).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the meteorological data file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier de données météorologiques.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the output file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier de sortie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the parameter file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier de paramètres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>path of the text file to write the data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>chemin du fichier texte où écrire les données.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>periodicity of the input epilimnion temperature data and of the simulation; it can take the values 'daily', 'weekly', 'monthly'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>fréquence des données d'entrée de la température de l'épilimnion et de la simulation ; les valeurs possibles sont 'daily' (journalière), 'weekly' (hebdomadaire), 'monthly' (mensuelle).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>periodicity of the input meteorological data and of the simulation; it can take the values 'daily', 'weekly', 'monthly'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>fréquence des données météorologiques d'entrée et de la simulation ; les valeurs possibles sont 'daily' (journalière), 'weekly' (hebdomadaire), 'monthly' (mensuelle).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>periodicity of the output data (only implemented for daily simulations); it can take the values 'daily', 'weekly', 'monthly'. It is only used if the periodicity of the simulations is 'daily'.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>fréquence des données de sortie (implémentée seulement pour simulations journalières) ; es valeurs possibles sont 'daily' (journalière), 'weekly' (hebdomadaire), 'monthly' (mensuelle).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>r: correlation coefficient.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>r : coefficient de corrélation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>read_dict: read lake or parameter file to dictionary.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>read_dict : lit un fichier de lac ou de paramètres dans un dictionnaire.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>rmse: root mean square error.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>rmse : racine carrée de l'erreur quadratique moyenne.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>run_okp: run the OKP model.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>run_okp : exécute le modèle OKP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>sd: standard deviation.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>sd : déviation standard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>select_daterange: return indices between two dates.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>select_daterange : retourne les indices entre deux dates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>sr: mean daily solar radiation (W m\ :sup:`-2`\ ).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>sr : rayonnement solaire journalier moyen (W/m\ :sup:`2`\ ).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>surface: lake surface area (m\ :sup:`2`\ )</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>surface : aire de surface du lac (m\ :sup:`2`\ )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>synthetic_case_daily : daily data</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145459Z" creationid="jordi" creationdate="20191121T145459Z">
+        <seg>synthetic_case_daily : données journalières</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>synthetic_case_monthly: monthly data</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145515Z" creationid="jordi" creationdate="20191121T145515Z">
+        <seg>synthetic_case_monthly : données mensuelles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>synthetic_case_weekly: weekly data</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T145521Z" creationid="jordi" creationdate="20191121T145505Z">
+        <seg>synthetic_case_weekly : données hebdomadaires</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>tair: mean daily air temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>tair : température de l'air journalière moyenne (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>tepi: epilimnion temperature (ºC) (optional).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>tepi : température de l'épilimnion (ºC) (optionnelle).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>tepi: epilimnion temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>tepi : température de l'épilimnion (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>test_okp_model.py: to test the function ``run_okp()``, main function used to run the simulations.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150303Z" creationid="jordi" creationdate="20191121T150257Z">
+        <seg>test_okp_model.py : pour tester la ``run_okp()``, fonction principale utilisée pour lancer les simulations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>test_validation.py: to test the function ``error_statistics()``, function used for the validation of simulation results.</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T150332Z" creationid="jordi" creationdate="20191121T150301Z">
+        <seg>test_validation.py : pour tester la fonction ``error_statistics()``, fonction utilisée pour la validation des résultats de simulation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>the function to be used (sum, numpy.mean, etc.).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>la fonction à utiliser (sum, numpy.mean, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>thyp: hypolimnion temperature (ºC) (optional).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>thyp : température de l'hypolimnion (ºC) (optionnelle).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>thyp: hypolimnion temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>thyp : température de l'hypolimnion (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>time array of observed data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>array de temps des données observées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>time array of the simulated data.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>array de temps des données simulées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>type of input data, "daily" or "subdaily".</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>type de données d'entrée, "daily" (journalières) or "subdaily" (infra-journalières).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>type: lake type; it can be 'L' for lakes (surface outlet) or 'R' for reservoirs (submerged outlet)</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>type : type de lac ; il peut être 'L' pour les lacs (exutoire en surface) ou 'R' pour les réservoirs (exutoire submergé)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>value of the parameter E [0 - 1].</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>valeur du paramètre E [0 - 1].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>volume: lake volume (m\ :sup:`3`\ )</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>volume : volume du lac (m\ :sup:`3`\ )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>water temperature (ºC).</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>température de l'eau (ºC).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>water temperature simulations, saved to the file ``output_file``.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>simulations de température de l'eau, sauvegardées au fichier ``output_file``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>water_density: calculate water density.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>water_density : calcule la densité de l'eau.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>weekly_f: apply function on weekly periods.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>weekly_f : applique fonction sur des périodes hebdomadaires.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>write_dict: write dictionary to file.</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>write_dict : écrit dictionnaire dans un fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>zmax: lake depth (m)</seg>
+      </tuv>
+      <tuv lang="FR">
+        <seg>zmax : profondeur du lac (m)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>|logo1|</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T084859Z" creationid="jordi" creationdate="20191121T084859Z">
+        <seg>|logo1|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-GB">
+        <seg>|logo2|</seg>
+      </tuv>
+      <tuv lang="FR" changeid="jordi" changedate="20191121T084901Z" creationid="jordi" creationdate="20191121T084901Z">
+        <seg>|logo2|</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

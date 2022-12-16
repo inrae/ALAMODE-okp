@@ -1,0 +1,7 @@
+name ALL04
+altitude 2232
+latitude 44.233
+zmax 51
+surface 528424.501
+volume 9775853.276
+type L

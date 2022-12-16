@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-06 19:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/examples.rst:2
+msgid "Examples of usage of the package ``okplm``"
+msgstr "Exemples d'utilisation du paquet ``okplm``"
+
+#: ../../source/examples.rst:4
+msgid ""
+"You can test the application with examples provided. The package contains"
+" four data examples in the folder ``examples``. An associated Python "
+"script (``test_script.py``) and a module based on the ``plotly`` package "
+"(``plotly_fonctions.py``) to plot results are available in the folder "
+"``tests``."
+msgstr "Vous pouvez tester l'application à l'aide des exemples de fichiers fournis. Le paquet contient quatre jeux de données d'exemple dans les dossier ``examples``: un exemple de script Python (``tests/test_script.py``), et un module basée sur le paquet ``plotly`` (``tests/plotly_fonctions.py``) et permettant de visualiser les résultats."
+
+#: ../../source/examples.rst:11
+msgid "The data"
+msgstr "Les données"
+
+#: ../../source/examples.rst:13
+msgid ""
+"In all cases the lake data in the ``lake.txt`` file corresponds to the "
+"Lake Allos (lake code = ALL04). The meteorological data (``meteo.txt``) "
+"is synthetic data based on meteorological data. Air temperature has been "
+"created using a seasonal component and an ARMA model, while solar "
+"radiation data corresponds to the seasonal component only."
+msgstr "Dans ces exemples, les données du lac dans le fichier ``lake.txt`` correspondent à celles du lac d'Allos. (code du lac = ALL04). Les données météorologiques (``meteo.txt``) sont des données synthétiques d'une base de données météorologiques. La température de l'air a été créée à l'aide d'une température avec une composante saisonnière et un modèle ARMA, tandis que les données de rayonnement solaire correspondent seulement à la composante saisonnière."
+
+#: ../../source/examples.rst:19
+msgid ""
+"Three of the cases are used to exemplify the usage of ``okplm`` for three"
+" different periodicities. The necessary data for these tests can be found"
+" in the folders:"
+msgstr "Trois tests peuvent être réalisés avec ``test_script.py`` pour illustrer l’utilisation de ``okplm`` pour trois différentes fréquences. Les données nécessaires pour ces trois tests sont dans les dossiers :"
+
+#: ../../source/examples.rst:22
+msgid "synthetic_case_daily : daily data"
+msgstr "synthetic_case_daily : données journalières"
+
+#: ../../source/examples.rst:23
+msgid "synthetic_case_weekly: weekly data"
+msgstr "synthetic_case_weekly : données hebdomadaires"
+
+#: ../../source/examples.rst:24
+msgid "synthetic_case_monthly: monthly data"
+msgstr "synthetic_case_monthly : données mensuelles"
+
+#: ../../source/examples.rst:27
+msgid "The simulations"
+msgstr "Les simulations"
+
+#: ../../source/examples.rst:29
+msgid ""
+"For these three case the input is meteorological data (``meteo.txt``) and"
+" lake data (``lake.txt``). Thus, the model parameters are calculated from"
+" lake characteristics given in ``lake.txt`` with the following command:"
+msgstr "Pour ces trois cas, les données météorologiques (``meteo.txt``) et les données lacustres (``lake.txt``) sont fournies en entrée au modèle. Par conséquent, les paramètres du modèle sont calculés à partir des caractéristiques du lac dans ``lake.txt`` avec la formulation suivante :"
+
+#: ../../source/examples.rst:39
+msgid ""
+"In the case of the simulation with daily data, the script "
+"``test_script.py`` gives example of validation of the model results with "
+"an observation data file ``obs.txt``."
+msgstr "Dans le cas d'une simulation avec des données journalières, le script ``test_script.py`` donne un exemple de validation des résultats du modèle avec une fichier d'observation ``obs.txt``."
+
+#: ../../source/examples.rst:50
+msgid ""
+"The remaining test case (synthetic_case_par_given) exemplifies the case "
+"when the parameter file is given. The data are in the folder:"
+msgstr "Le dernier cas de test (``synthetic_case_par_given``) est le cas où un fichier utilisateur des paramètres du modèle est donné en entrée. Les données sont dans le dossier :"
+
+#: ../../source/examples.rst:53
+msgid "examples/synthetic_case_given : daily data"
+msgstr "examples/synthetic_case_given : données journalières"
+
+#: ../../source/examples.rst:55
+msgid ""
+"The model uses the given parameter values (``par.txt``) and the daily "
+"meteorological data (``meteo.txt``). The file ``lake.txt`` is not "
+"necessary."
+msgstr "Le modèle utilise donc les valeurs de paramètre (``par.txt``) et les données météorologiques journalières (``meteo.txt``). Le fichier ``lake.txt`` n'est pas nécessaire."
+
+#: ../../source/examples.rst:60
+msgid "Plotting of results"
+msgstr "Visualisation des résultats"
+
+#: ../../source/examples.rst:62
+msgid ""
+"You can plot the simulation results with the function ``plotlyoutput()`` "
+"in the module ``tests/plotly_functions.py``, in addition to validation "
+"criteria (n, sd, r, me, mae et rmse) and observations, if they are "
+"available, with the instruction :"
+msgstr "La fonction ``plotlyoutput()`` dans le script ``plotly_functions.py`` permet de visualiser les résultats des simulations ainsi que, le cas échéant, les valeurs des critères de validation (n, sd, r, me, mae et rmse) et les observations avec la formulation suivante :"
+
+#: ../../source/examples.rst:71
+msgid "The results are then presented as an html file such as:"
+msgstr "Les résultats sont alors présentés sous la forme d'un fichier html de ce type :"
+
+msgid "Example of figure created by the function ``plotlyoutput()``"
+msgstr "Exemple de figure créée avec la fonction ``plotlyoutput()``"
+

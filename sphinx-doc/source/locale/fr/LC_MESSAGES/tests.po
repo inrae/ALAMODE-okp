@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-21 15:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/tests.rst:2
+msgid "Tests"
+msgstr "Tests"
+
+#: ../../source/tests.rst:4
+msgid ""
+"The folder ``tests`` contains 2 scripts to test the functionalities of "
+"the package `okplm`:"
+msgstr "Le dossier ``tests`` contient 2 scripts permettant de tester les fonctionnalités du paquet ``okplm`` :"
+
+#: ../../source/tests.rst:7
+msgid ""
+"test_okp_model.py: to test the function ``run_okp()``, main function used"
+" to run the simulations."
+msgstr "test_okp_model.py : pour tester la ``run_okp()``, fonction principale utilisée pour lancer les simulations."
+
+#: ../../source/tests.rst:9
+msgid ""
+"test_validation.py: to test the function ``error_statistics()``, function"
+" used for the validation of simulation results."
+msgstr "test_validation.py : pour tester la fonction ``error_statistics()``, fonction utilisée pour la validation des résultats de simulation."
+

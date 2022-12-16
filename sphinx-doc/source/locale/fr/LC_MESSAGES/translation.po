@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Segula Technologies - Agence Française pour la
+# Biodiversité
+# This file is distributed under the same license as the okplm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: okplm \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-26 12:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/translation.rst:2
+msgid "Translation of the project's documentation"
+msgstr "Traduction de la documentation du projet"
+
+#: ../../source/translation.rst:3
+msgid ""
+"The ``okplm`` package is originally written in English and translated "
+"into French. This section describes the process to translate the `User "
+"and Developer Guide` by using pot and po files and the package ``sphinx-"
+"intl``. Using this method only the modified sections of text need to be "
+"translated again when modifications are made to the original "
+"documentation. It also facilitates the translation of docstrings and "
+"module documentation. The translation instructions are based on https"
+"://sphinx-doc.org/en/1.8/intl.html."
+msgstr "Le package ``okplm`` a été écrit originalement en anglais et traduit en français. Cette section décrit le procès pour traduire le `Guide d'Utilisation et Développement`, qui utilise des fichiers pot et po et le package ``sphinx-intl``. L'utilisation de cette méthode permet de traduire seulement les sections modifiées quand il y a des modifications de la modification originelle. Cette méthode facilite aussi la traduction des docstrings et de la documentation des modules. Les instructions de traduction sont basées sur https://sphinx-doc.org/en/1.8/intl.html."
+
+#: ../../source/translation.rst:13
+msgid "Preliminary steps"
+msgstr "Pas préliminaires"
+
+#: ../../source/translation.rst:14
+msgid ""
+"Before starting the translation it is advisable to check the source files"
+" thoroughly to eliminate any language or format issues."
+msgstr "Avant de commencer la traduction il est conseillé de relire attentivement les fichiers source pour éliminer des erreurs linguistiques ou de format."
+
+#: ../../source/translation.rst:17
+msgid ""
+"A glossary of technical terms has been created to improve the consistency"
+" of the translation. It is located in the folder ``sphinx-"
+"doc/glossaries``."
+msgstr "Un glossaire de termes techniques a été créé pour améliorer la consistance de la traduction. Il est situé dans le dossier ``sphinx-doc/glossaries``."
+
+#: ../../source/translation.rst:22
+msgid "Creation of POT and PO files"
+msgstr "Création de fichiers POT et PO"
+
+#: ../../source/translation.rst:23
+msgid ""
+"The translation of the documentation files is based on the extraction of "
+"the translatable text into pot (portable object template) files and the "
+"creation of translated text in po (portable object) files. For this, the "
+"package ``sphinx-intl`` is used."
+msgstr "La traduction des fichiers de documentation est basé sur l'extraction du texte traduisible en fichiers pot (portable object template) et la création de texte traduit en fichiers po (portable object). Pour ça, le package ``sphinx-intl`` est utilisé."
+
+#: ../../source/translation.rst:28
+msgid ""
+"To extract the document's translatable messages into pot files, change to"
+" the ``sphinx-doc`` directory in the terminal and do:"
+msgstr "Pour extraire les messages traduisibles du document vers des fichiers pot, placez-vous dans le dossier ``sphinx-doc`` dans le terminal et faites :"
+
+#: ../../source/translation.rst:35
+msgid ""
+"The resulting pot files are saved in the folder ``build/gettext``. They "
+"contain the translatable text broken down into segments."
+msgstr "Les fichiers pot créés sont stockés dans le dossier ``build/gettext``. Ils contiennent le texte traduisible coupé en segments."
+
+#: ../../source/translation.rst:38
+msgid ""
+"Then you need to generate the po files for each target language. For "
+"example, for French you need to do"
+msgstr "Alors vous devez générer les fichiers po pour chaque langue cible. Par exemple, pour la langue française vous devez faire"
+
+#: ../../source/translation.rst:45
+msgid ""
+"The resulting po files are stored in the folder "
+"``source/locale/fr/LC_MESSAGES``."
+msgstr "Les fichiers po créés sont stockés dans le dossier ``source/locale/fr/LC_MESSAGES``."
+
+#: ../../source/translation.rst:48
+msgid ""
+"The po files contain pairs of segments of text in the source (msgid) and "
+"target language (msgstr)."
+msgstr "Les fichiers po contiennent paires de segments de texte dans les langues source (msgid) et cible (msgstr)."
+
+#: ../../source/translation.rst:51
+msgid "Before starting the translation, the value of msgstr is empty:"
+msgstr "Avant de démarrer la traduction, la valeur de msgstr est vide :"
+
+#: ../../source/translation.rst:60
+msgid "Translation"
+msgstr "Traduction"
+
+#: ../../source/translation.rst:61
+msgid ""
+"Thus to translate the text you need to edit the po files and type de "
+"translated text beside msgstr:"
+msgstr "Ainsi pour traduire le texte vous devez éditer les fichiers po et taper le texte traduit à côté msgstr :"
+
+#: ../../source/translation.rst:70
+msgid "Be careful to maintain the reST formatting in the translated version."
+msgstr "Il faut veiller à maintenir le formatage reST dans la version traduite."
+
+#: ../../source/translation.rst:73
+msgid ""
+"You can do the translation by hand by modifying the po files. However, it"
+" is more efficient to use a PO editor (e.g., GNOME Translation Editor or "
+"PO edit) or computer assisted translation (CAT) software such as OmegaT."
+msgstr "Vous pouvez faire la traduction manuellement modifiant les fichiers po. Par contre, il est plus efficient d'utiliser un éditeur PO (p. ex., GNOME Translation Editor ou PO edit) ou des logiciels de traduction assistée par ordinateur (TAO) comme OmegaT."
+
+#: ../../source/translation.rst:78
+msgid "Compilation of the translated documentation"
+msgstr "Compilation de la documentation traduite"
+
+#: ../../source/translation.rst:79
+msgid ""
+"The documentation in French is saved in the folder ``build_fr``. To "
+"compile the user manual in French as html files go to the folder "
+"``pathtorepertoryokplm/sphinx-doc`` and type:"
+msgstr "La documentation en français est sauvegardée dans le dossier ``build_fr``. Pour compiler le manuel d'utilisation en français en html allez au dossier ``pathtorepertoryokplm/sphinx-doc`` et tapez :"
+
+#: ../../source/translation.rst:87
+msgid ""
+"The output html files are saved in the folder ``pathtorepertoryokplm"
+"/sphinx-doc/build_fr/html``."
+msgstr "Les fichiers html de sortie sont stockés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build_fr/html``."
+
+#: ../../source/translation.rst:90
+msgid "To compile the pdf documentation, type the following commands:"
+msgstr "Pour compiler la documentation en pdf, tapez les commandes suivantes :"
+
+#: ../../source/translation.rst:98
+msgid ""
+"The source documentation files are converted to latex and then to pdf. "
+"The output latex and pdf files are saved in the folder "
+"``pathtorepertoryokplm/sphinx-doc/build_fr/latex``."
+msgstr "Les fichiers source de la documentation sont convertis à latex et après à pdf. Les fichiers latex et pdf de sortie sont sauvegardés dans le dossier ``pathtorepertoryokplm/sphinx-doc/build_fr/latex``."
+
+#: ../../source/translation.rst:103
+msgid "Update of the translated documentation"
+msgstr "Mise à jour de la documentation traduite"
+
+#: ../../source/translation.rst:104
+msgid ""
+"If the project's documentation is updated, it is necessary to create new "
+"pot files following the procedure described above. To apply the changes "
+"to the po files, do"
+msgstr "Si la documentation du projet est modifiée, il faut créer des nouveaux fichiers pot d'accord avec la procédure décrite ci-dessus. Pour appliquer les changements aux fichiers po, faites"
+
+#: ../../source/translation.rst:112
+msgid "Then, you only need to translate the modified segments."
+msgstr "Après, vous devrez traduire seulement les segments modifiés."
+
+#~ msgid "Update of documentation"
+#~ msgstr "Mise à jour de la documentation"
+

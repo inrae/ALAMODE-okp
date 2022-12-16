@@ -1,0 +1,10 @@
+A 6.2
+B 1.007
+C -0.007
+D 0.51
+E 0.24
+ALPHA 0.071
+BETA 0.13
+mat -0.41
+at_factor 1.0
+sw_factor 1.0
