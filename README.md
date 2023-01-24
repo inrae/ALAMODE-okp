@@ -59,7 +59,7 @@ without problems.
 ### Cloning the repository
 First you have to clone the `okplm` package with git:
 ```git
-git clone https://gitlab.irstea.fr/alamode/okplm
+git clone https://github.com/inrae/ALAMODE-okp.git
 ```
 This command creates the okplm repertory.
 
