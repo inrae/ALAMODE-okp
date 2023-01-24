@@ -63,13 +63,6 @@ git clone https://gitlab.irstea.fr/alamode/okplm
 ```
 This command creates the okplm repertory.
 
-You might be interested in installing a development branch of the project. Then, 
-after cloning the `okplm`package you need to change to the `dev` branch:
-```git
-cd okplm
-git checkout dev
-```
-
 
 ### Installing `okplm`
 Using septuptools:
