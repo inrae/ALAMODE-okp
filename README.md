@@ -4,6 +4,7 @@ Copyright 2019 Segula Technologies - Office Français de la Biodiversité.
 <p align="center">
 <img title="banner ALAMODE" src="images/ALAMOD_withlogos.png">
 </p>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7564750.svg)](https://doi.org/10.5281/zenodo.7564750)
 
 ## Content
 
