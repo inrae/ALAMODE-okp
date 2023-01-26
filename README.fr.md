@@ -63,7 +63,7 @@ pour exécuter le paquet `okplm`. Plusieurs versions de Python (2.x et
 Le paquet `okplm` doit d'abord être cloné avec git :
 
 ```bash
-clone de git https://gitlab.irstea.fr/alamode/okplm
+git clone https://github.com/inrae/ALAMODE-okp.git
 ```
 
 Cette commande crée le répertoire okplm.
