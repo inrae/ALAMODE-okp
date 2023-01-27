@@ -66,7 +66,7 @@ project's code in a subfolder and clone the ``okplm`` project:
 .. code:: shell
 
     cd pathtoprojectsfolder
-    git clone https://gitlab.irstea.fr/alamode/okplm
+    git clone https://github.com/inrae/ALAMODE-okp
 
 This command creates the ``okplm`` repertory in the folder ``pathtoprojectsfolder``.
 
